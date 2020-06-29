@@ -1,0 +1,17 @@
+[00:01:04] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[00:01:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
+[00:08:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[00:08:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
+[00:08:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[00:08:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[00:08:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: alexagapov2000 lost connection: Disconnected
+[00:08:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: alexagapov2000 left the game
+[00:08:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[00:08:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[00:08:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
+[00:09:00] [Server thread/INFO] [FML]: Unloading dimension 0
+[00:09:00] [Server thread/INFO] [FML]: Applying holder lookups
+[00:09:00] [Server thread/INFO] [FML]: Holder lookups applied
+[00:09:12] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[00:09:12] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[00:09:12] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

@@ -1,0 +1,2573 @@
+{
+  "id": "industrial",
+  "jar": "1.12.2",
+  "time": "2020-04-12T20:57:42+03:00",
+  "releaseTime": "2017-09-18T11:39:46+03:00",
+  "type": "release",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge",
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minimumLauncherVersion": 18,
+  "tlauncherVersion": 0,
+  "assets": "1.12",
+  "source": "local_version_repo",
+  "skinVersion": true,
+  "libraries": [
+    {
+      "name": "net.minecraftforge:forge:1.12.2-14.23.5.2854",
+      "artifact": {
+        "sha1": "762f5cb227a8dd88cfd3949033c78f24030b36aa",
+        "size": 4464068,
+        "path": "libraries/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854.jar",
+        "url": "http://dl2.tlrepo.com/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854.jar"
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-debug-all:5.2",
+      "artifact": {
+        "sha1": "3354e11e2b34215f06dab629ab88e06aca477c19",
+        "size": 387903,
+        "path": "org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar",
+        "url": "https://files.minecraftforge.net/maven/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+      }
+    },
+    {
+      "name": "net.minecraft:launchwrapper:1.12",
+      "artifact": {
+        "sha1": "111e7bea9c968cdb3d06ef4632bf7ff0824d0f36",
+        "size": 32999,
+        "path": "net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+        "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+      }
+    },
+    {
+      "name": "org.jline:jline:3.5.1",
+      "artifact": {
+        "sha1": "51800e9d7a13608894a5a28eed0f5c7fa2f300fb",
+        "size": 614590,
+        "path": "org/jline/jline/3.5.1/jline-3.5.1.jar",
+        "url": "https://files.minecraftforge.net/maven/org/jline/jline/3.5.1/jline-3.5.1.jar"
+      }
+    },
+    {
+      "name": "com.typesafe.akka:akka-actor_2.11:2.3.3",
+      "artifact": {
+        "sha1": "ed62e9fc709ca0f2ff1a3220daa8b70a2870078e",
+        "size": 2514991,
+        "path": "com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar",
+        "url": "https://files.minecraftforge.net/maven/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+      }
+    },
+    {
+      "name": "com.typesafe:config:1.2.1",
+      "artifact": {
+        "sha1": "f771f71fdae3df231bcd54d5ca2d57f0bf93f467",
+        "size": 219554,
+        "path": "com/typesafe/config/1.2.1/config-1.2.1.jar",
+        "url": "https://files.minecraftforge.net/maven/com/typesafe/config/1.2.1/config-1.2.1.jar"
+      }
+    },
+    {
+      "name": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+      "artifact": {
+        "sha1": "dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f",
+        "size": 58018,
+        "path": "org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar",
+        "url": "https://files.minecraftforge.net/maven/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+      }
+    },
+    {
+      "name": "org.scala-lang:scala-compiler:2.11.1",
+      "artifact": {
+        "sha1": "56ea2e6c025e0821f28d73ca271218b8dd04926a",
+        "size": 13449765,
+        "path": "org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar",
+        "url": "https://files.minecraftforge.net/maven/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+      }
+    },
+    {
+      "name": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc",
+      "artifact": {
+        "sha1": "0e517c53a7e9acd6b1668c5a35eccbaa3bab9aac",
+        "size": 25365,
+        "path": "org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar",
+        "url": "https://files.minecraftforge.net/maven/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+      }
+    },
+    {
+      "name": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc",
+      "artifact": {
+        "sha1": "f361a3283452c57fa30c1ee69448995de23c60f7",
+        "size": 206575,
+        "path": "org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar",
+        "url": "https://files.minecraftforge.net/maven/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+      }
+    },
+    {
+      "name": "org.scala-lang:scala-library:2.11.1",
+      "artifact": {
+        "sha1": "0e11da23da3eabab9f4777b9220e60d44c1aab6a",
+        "size": 5538130,
+        "path": "org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar",
+        "url": "https://files.minecraftforge.net/maven/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+      }
+    },
+    {
+      "name": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+      "artifact": {
+        "sha1": "f05d7345bf5a58924f2837c6c1f4d73a938e1ff0",
+        "size": 419701,
+        "path": "org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar",
+        "url": "https://files.minecraftforge.net/maven/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+      }
+    },
+    {
+      "name": "org.scala-lang:scala-reflect:2.11.1",
+      "artifact": {
+        "sha1": "6580347e61cc7f8e802941e7fde40fa83b8badeb",
+        "size": 4372892,
+        "path": "org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar",
+        "url": "https://files.minecraftforge.net/maven/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+      }
+    },
+    {
+      "name": "org.scala-lang:scala-swing_2.11:1.0.1",
+      "artifact": {
+        "sha1": "b1cdd92bd47b1e1837139c1c53020e86bb9112ae",
+        "size": 726500,
+        "path": "org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar",
+        "url": "https://files.minecraftforge.net/maven/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+      }
+    },
+    {
+      "name": "org.scala-lang:scala-xml_2.11:1.0.2",
+      "artifact": {
+        "sha1": "7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0",
+        "size": 648679,
+        "path": "org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar",
+        "url": "https://files.minecraftforge.net/maven/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+      }
+    },
+    {
+      "name": "lzma:lzma:0.0.1",
+      "artifact": {
+        "sha1": "521616dc7487b42bef0e803bd2fa3faf668101d7",
+        "size": 5762,
+        "path": "lzma/lzma/0.0.1/lzma-0.0.1.jar",
+        "url": "https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+      }
+    },
+    {
+      "name": "java3d:vecmath:1.5.2",
+      "artifact": {
+        "sha1": "79846ba34cbd89e2422d74d53752f993dcc2ccaf",
+        "size": 318956,
+        "path": "java3d/vecmath/1.5.2/vecmath-1.5.2.jar",
+        "url": "https://libraries.minecraft.net/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+      }
+    },
+    {
+      "name": "net.sf.trove4j:trove4j:3.0.3",
+      "artifact": {
+        "sha1": "42ccaf4761f0dfdfa805c9e340d99a755907e2dd",
+        "size": 2523218,
+        "path": "net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar",
+        "url": "https://libraries.minecraft.net/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+      }
+    },
+    {
+      "name": "org.apache.maven:maven-artifact:3.5.3",
+      "artifact": {
+        "sha1": "7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4",
+        "size": 54961,
+        "path": "org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar",
+        "url": "https://files.minecraftforge.net/maven/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+      }
+    },
+    {
+      "name": "net.sf.jopt-simple:jopt-simple:5.0.3",
+      "artifact": {
+        "sha1": "cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a",
+        "size": 78175,
+        "path": "net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar",
+        "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+      }
+    },
+    {
+      "name": "com.mojang:patchy:1.1",
+      "artifact": {
+        "sha1": "aef610b34a1be37fa851825f12372b78424d8903",
+        "size": 15817,
+        "path": "com/mojang/patchy/1.1/patchy-1.1.jar",
+        "url": "https://libraries.minecraft.net/com/mojang/patchy/1.1/patchy-1.1.jar"
+      }
+    },
+    {
+      "name": "oshi-project:oshi-core:1.1",
+      "artifact": {
+        "sha1": "9ddf7b048a8d701be231c0f4f95fd986198fd2d8",
+        "size": 30973,
+        "path": "oshi-project/oshi-core/1.1/oshi-core-1.1.jar",
+        "url": "https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.jar"
+      }
+    },
+    {
+      "name": "net.java.dev.jna:jna:4.4.0",
+      "artifact": {
+        "sha1": "cb208278274bf12ebdb56c61bd7407e6f774d65a",
+        "size": 1091208,
+        "path": "net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar",
+        "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar"
+      }
+    },
+    {
+      "name": "net.java.dev.jna:platform:3.4.0",
+      "artifact": {
+        "sha1": "e3f70017be8100d3d6923f50b3d2ee17714e9c13",
+        "size": 913436,
+        "path": "net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar",
+        "url": "https://libraries.minecraft.net/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar"
+      }
+    },
+    {
+      "name": "com.ibm.icu:icu4j-core-mojang:51.2",
+      "artifact": {
+        "sha1": "63d216a9311cca6be337c1e458e587f99d382b84",
+        "size": 1634692,
+        "path": "com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar",
+        "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar"
+      }
+    },
+    {
+      "name": "net.sf.jopt-simple:jopt-simple:5.0.3",
+      "artifact": {
+        "sha1": "cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a",
+        "size": 78175,
+        "path": "net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar",
+        "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+      }
+    },
+    {
+      "name": "com.paulscode:codecjorbis:20101023",
+      "artifact": {
+        "sha1": "c73b5636faf089d9f00e8732a829577de25237ee",
+        "size": 103871,
+        "path": "com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
+        "url": "https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar"
+      }
+    },
+    {
+      "name": "com.paulscode:codecwav:20101023",
+      "artifact": {
+        "sha1": "12f031cfe88fef5c1dd36c563c0a3a69bd7261da",
+        "size": 5618,
+        "path": "com/paulscode/codecwav/20101023/codecwav-20101023.jar",
+        "url": "https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar"
+      }
+    },
+    {
+      "name": "com.paulscode:libraryjavasound:20101123",
+      "artifact": {
+        "sha1": "5c5e304366f75f9eaa2e8cca546a1fb6109348b3",
+        "size": 21679,
+        "path": "com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
+        "url": "https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar"
+      }
+    },
+    {
+      "name": "com.paulscode:librarylwjglopenal:20100824",
+      "artifact": {
+        "sha1": "73e80d0794c39665aec3f62eee88ca91676674ef",
+        "size": 18981,
+        "path": "com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar",
+        "url": "https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar"
+      }
+    },
+    {
+      "name": "com.paulscode:soundsystem:20120107",
+      "artifact": {
+        "sha1": "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
+        "size": 65020,
+        "path": "com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
+        "url": "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar"
+      }
+    },
+    {
+      "name": "io.netty:netty-all:4.1.9.Final",
+      "artifact": {
+        "sha1": "0097860965d6a0a6b98e7f569f3f966727b8db75",
+        "size": 3511093,
+        "path": "io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar",
+        "url": "https://libraries.minecraft.net/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar"
+      }
+    },
+    {
+      "name": "com.google.guava:guava:21.0",
+      "artifact": {
+        "sha1": "3a3d111be1be1b745edfa7d91678a12d7ed38709",
+        "size": 2521113,
+        "path": "com/google/guava/guava/21.0/guava-21.0.jar",
+        "url": "https://libraries.minecraft.net/com/google/guava/guava/21.0/guava-21.0.jar"
+      }
+    },
+    {
+      "name": "org.apache.commons:commons-lang3:3.5",
+      "artifact": {
+        "sha1": "6c6c702c89bfff3cd9e80b04d668c5e190d588c6",
+        "size": 479881,
+        "path": "org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar",
+        "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar"
+      }
+    },
+    {
+      "name": "commons-io:commons-io:2.5",
+      "artifact": {
+        "sha1": "2852e6e05fbb95076fc091f6d1780f1f8fe35e0f",
+        "size": 208700,
+        "path": "commons-io/commons-io/2.5/commons-io-2.5.jar",
+        "url": "https://libraries.minecraft.net/commons-io/commons-io/2.5/commons-io-2.5.jar"
+      }
+    },
+    {
+      "name": "commons-codec:commons-codec:1.10",
+      "artifact": {
+        "sha1": "4b95f4897fa13f2cd904aee711aeafc0c5295cd8",
+        "size": 284184,
+        "path": "commons-codec/commons-codec/1.10/commons-codec-1.10.jar",
+        "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"
+      }
+    },
+    {
+      "name": "net.java.jinput:jinput:2.0.5",
+      "artifact": {
+        "sha1": "39c7796b469a600f72380316f6b1f11db6c2c7c4",
+        "size": 208338,
+        "path": "net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+        "url": "https://libraries.minecraft.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar"
+      }
+    },
+    {
+      "name": "net.java.jutils:jutils:1.0.0",
+      "artifact": {
+        "sha1": "e12fe1fda814bd348c1579329c86943d2cd3c6a6",
+        "size": 7508,
+        "path": "net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+        "url": "https://libraries.minecraft.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar"
+      }
+    },
+    {
+      "name": "com.google.code.gson:gson:2.8.0",
+      "artifact": {
+        "sha1": "c4ba5371a29ac9b2ad6129b1d39ea38750043eff",
+        "size": 231952,
+        "path": "com/google/code/gson/gson/2.8.0/gson-2.8.0.jar",
+        "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"
+      }
+    },
+    {
+      "name": "com.mojang:authlib:1.5.25",
+      "artifact": {
+        "sha1": "9834cdf236c22e84b946bba989e2f94ef5897c3c",
+        "size": 65621,
+        "path": "com/mojang/authlib/1.5.25/authlib-1.5.25.jar",
+        "url": "https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.jar"
+      }
+    },
+    {
+      "name": "com.mojang:realms:1.10.22",
+      "artifact": {
+        "sha1": "bd0dccebdf3744c75f1ca20063f16e8f7d5e663f",
+        "size": 7135057,
+        "path": "com/mojang/realms/1.10.22/realms-1.10.22.jar",
+        "url": "https://libraries.minecraft.net/com/mojang/realms/1.10.22/realms-1.10.22.jar"
+      }
+    },
+    {
+      "name": "org.apache.commons:commons-compress:1.8.1",
+      "artifact": {
+        "sha1": "a698750c16740fd5b3871425f4cb3bbaa87f529d",
+        "size": 365552,
+        "path": "org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
+        "url": "https://libraries.minecraft.net/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar"
+      }
+    },
+    {
+      "name": "org.apache.httpcomponents:httpclient:4.3.3",
+      "artifact": {
+        "sha1": "18f4247ff4572a074444572cee34647c43e7c9c7",
+        "size": 589512,
+        "path": "org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar",
+        "url": "https://libraries.minecraft.net/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar"
+      }
+    },
+    {
+      "name": "commons-logging:commons-logging:1.1.3",
+      "artifact": {
+        "sha1": "f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f",
+        "size": 62050,
+        "path": "commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar",
+        "url": "https://libraries.minecraft.net/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"
+      }
+    },
+    {
+      "name": "org.apache.httpcomponents:httpcore:4.3.2",
+      "artifact": {
+        "sha1": "31fbbff1ddbf98f3aa7377c94d33b0447c646b6e",
+        "size": 282269,
+        "path": "org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar",
+        "url": "https://libraries.minecraft.net/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar"
+      }
+    },
+    {
+      "name": "it.unimi.dsi:fastutil:7.1.0",
+      "artifact": {
+        "sha1": "9835253257524c1be7ab50c057aa2d418fb72082",
+        "size": 17655579,
+        "path": "it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar",
+        "url": "https://libraries.minecraft.net/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar"
+      }
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-api:2.8.1",
+      "artifact": {
+        "sha1": "e801d13612e22cad62a3f4f3fe7fdbe6334a8e72",
+        "size": 228859,
+        "path": "org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar",
+        "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"
+      }
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-core:2.8.1",
+      "artifact": {
+        "sha1": "4ac28ff2f1ddf05dae3043a190451e8c46b73c31",
+        "size": 1402925,
+        "path": "org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar",
+        "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "artifact": {
+        "sha1": "697517568c68e78ae0b4544145af031c81082dfe",
+        "size": 1047168,
+        "path": "org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar",
+        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar"
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "artifact": {
+        "sha1": "d51a7c040a721d13efdfbd34f8b257b2df882ad0",
+        "size": 173887,
+        "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar",
+        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar"
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "artifact": {
+        "sha1": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33",
+        "size": 22,
+        "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209.jar",
+        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209.jar"
+      },
+      "classifies": {
+        "linux": {
+          "sha1": "931074f46c795d2f7b30ed6395df5715cfd7675b",
+          "size": 578680,
+          "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar",
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar"
+        },
+        "osx": {
+          "sha1": "bcab850f8f487c3f4c4dbabde778bb82bd1a40ed",
+          "size": 426822,
+          "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar",
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar"
+        },
+        "windows": {
+          "sha1": "b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0",
+          "size": 613748,
+          "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar",
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl:2.9.2-nightly-20140822",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "artifact": {
+        "sha1": "7707204c9ffa5d91662de95f0a224e2f721b22af",
+        "size": 1045632,
+        "path": "org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar",
+        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar"
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.2-nightly-20140822",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "artifact": {
+        "sha1": "f0e612c840a7639c1f77f68d72a28dae2f0c8490",
+        "size": 173887,
+        "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar",
+        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar"
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.2-nightly-20140822",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "classifies": {
+        "linux": {
+          "sha1": "d898a33b5d0a6ef3fed3a4ead506566dce6720a5",
+          "size": 578539,
+          "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar",
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar"
+        },
+        "osx": {
+          "sha1": "79f5ce2fea02e77fe47a3c745219167a542121d7",
+          "size": 468116,
+          "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar",
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar"
+        },
+        "windows": {
+          "sha1": "78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341",
+          "size": 613680,
+          "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar",
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar"
+        }
+      }
+    },
+    {
+      "name": "net.java.jinput:jinput-platform:2.0.5",
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "classifies": {
+        "linux": {
+          "sha1": "7ff832a6eb9ab6a767f1ade2b548092d0fa64795",
+          "size": 10362,
+          "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar",
+          "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar"
+        },
+        "osx": {
+          "sha1": "53f9c919f34d2ca9de8c51fc4e1e8282029a9232",
+          "size": 12186,
+          "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar",
+          "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar"
+        },
+        "windows": {
+          "sha1": "385ee093e01f587f30ee1c8a2ee7d408fd732e16",
+          "size": 155179,
+          "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar",
+          "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar"
+        }
+      }
+    },
+    {
+      "name": "com.mojang:text2speech:1.10.3",
+      "artifact": {
+        "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
+        "size": 11055,
+        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar",
+        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
+      }
+    },
+    {
+      "name": "com.mojang:text2speech:1.10.3",
+      "natives": {
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "artifact": {
+        "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
+        "size": 11055,
+        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar",
+        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
+      },
+      "classifies": {
+        "linux": {
+          "sha1": "ab7896aec3b3dd272b06194357f2d98f832c0cfc",
+          "size": 7833,
+          "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar",
+          "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar"
+        },
+        "windows": {
+          "sha1": "84a4b856389cc4f485275b1f63497a95a857a443",
+          "size": 81217,
+          "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar",
+          "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar"
+        },
+        "sources": {
+          "sha1": "404339fe43d1011ee046a249b0ec7ae9ce04a834",
+          "size": 4632,
+          "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-sources.jar",
+          "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-sources.jar"
+        }
+      }
+    },
+    {
+      "name": "ca.weblite:java-objc-bridge:1.0.0",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "natives": {
+        "osx": "natives-osx"
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "artifact": {
+        "sha1": "6ef160c3133a78de015830860197602ca1c855d3",
+        "size": 40502,
+        "path": "ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar",
+        "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar"
+      },
+      "classifies": {
+        "javadoc": {
+          "sha1": "fb0092f22cb4fe8e631452f577b7a238778abf2a",
+          "size": 174060,
+          "path": "ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-javadoc.jar",
+          "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-javadoc.jar"
+        },
+        "osx": {
+          "sha1": "08befab4894d55875f33c3d300f4f71e6e828f64",
+          "size": 5629,
+          "path": "ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-natives-osx.jar",
+          "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-natives-osx.jar"
+        },
+        "sources": {
+          "sha1": "865837a198189aee737019561ece842827f24278",
+          "size": 43283,
+          "path": "ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-sources.jar",
+          "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-sources.jar"
+        }
+      }
+    },
+    {
+      "name": "ca.weblite:java-objc-bridge:1.0.0",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "artifact": {
+        "sha1": "6ef160c3133a78de015830860197602ca1c855d3",
+        "size": 40502,
+        "path": "ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar",
+        "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar"
+      }
+    }
+  ],
+  "downloads": {
+    "client": {
+      "sha1": "0f275bc1547d01fa5f56ba34bdc87d981ee12daf",
+      "size": 10180113,
+      "url": "https://launcher.mojang.com/v1/objects/0f275bc1547d01fa5f56ba34bdc87d981ee12daf/client.jar"
+    },
+    "server": {
+      "sha1": "886945bfb2b978778c3a0288fd7fab09d315b25f",
+      "size": 30222121,
+      "url": "https://launcher.mojang.com/v1/objects/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar"
+    }
+  },
+  "assetIndex": {
+    "id": "1.12",
+    "totalSize": 129336389,
+    "size": 143138,
+    "url": "https://launchermeta.mojang.com/v1/packages/1584b57c1a0b5e593fad1f5b8f78536ca640547b/1.12.json"
+  },
+  "additionalFiles": [],
+  "modpack": {
+    "modpackMemory": false,
+    "memory": 0,
+    "id": -5160601680200,
+    "name": "industrial",
+    "categories": [],
+    "tags": [],
+    "pictures": [],
+    "version": {
+      "mods": [
+        {
+          "stateGameElement": "active",
+          "id": 10000020,
+          "name": "TL skin and cape",
+          "version": {
+            "id": 11000372,
+            "name": "1.4",
+            "metadata": {
+              "sha1": "d0483ac68cbeea22d6a2c46984c4cc7de4d3ce42",
+              "size": 193898,
+              "path": "mods/tlskincape1.12.2-1.4.jar",
+              "url": "/mods/10000020/11000372/tlskincape1.12.2-1.4.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 323993,
+          "name": "bspkrsCore Updated",
+          "version": {
+            "id": 2722821,
+            "name": "[1.12]bspkrsCore-universal-7.6.0.1",
+            "metadata": {
+              "sha1": "9ae9811f387a960381e5c82fae2a7f79d0480a27",
+              "size": 65907,
+              "path": "mods/[1.12]bspkrsCore-universal-7.6.0.1.jar",
+              "url": "/mods/323993/2722821/%5B1.12%5DbspkrsCore-universal-7.6.0.1.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 324007,
+          "name": "Treecapitator Updated",
+          "version": {
+            "id": 2722878,
+            "name": "[1.12]TreeCapitator-client-1.43.0",
+            "metadata": {
+              "sha1": "d58eb72603d7d58ad5a5982da8684fe2b9703bfb",
+              "size": 101115,
+              "path": "mods/[1.12]TreeCapitator-client-1.43.0.jar",
+              "url": "/mods/324007/2722878/%5B1.12%5DTreeCapitator-client-1.43.0.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 323993,
+              "dependencyType": "required"
+            }
+          ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 225179,
+          "name": "VoxelMap",
+          "version": {
+            "id": 2987237,
+            "name": "(Forge)  for 1.12.2",
+            "metadata": {
+              "sha1": "5f1d171eec4b6694db55f4f9ffdbfb886750dfc5",
+              "size": 1672764,
+              "path": "mods/forgemod_VoxelMap-1.9.21_for_1.12.2.jar",
+              "url": "/mods/225179/2987237/forgemod_VoxelMap-1.9.21_for_1.12.2.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 306612,
+              "dependencyType": "required"
+            }
+          ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 238284,
+          "name": "Auto Pickup",
+          "version": {
+            "id": 2689822,
+            "name": "1.12-2.5.1",
+            "metadata": {
+              "sha1": "6961e02ee401ac75e050c56d2c4b35751afeec60",
+              "size": 60977,
+              "path": "mods/AutoPickup-1.12-2.5.1.jar",
+              "url": "/mods/238284/2689822/AutoPickup-1.12-2.5.1.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 242638,
+          "name": "Industrial Craft",
+          "version": {
+            "id": 2980904,
+            "name": "industrialcraft-2-2.8.220-ex112",
+            "metadata": {
+              "sha1": "999c93d1abda897f7dac1686f94f913f99429003",
+              "size": 8698013,
+              "path": "mods/industrialcraft-2-2.8.220-ex112.jar",
+              "url": "/mods/242638/2980904/industrialcraft-2-2.8.220-ex112.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 238222,
+          "name": "Just Enough Items (JEI)",
+          "version": {
+            "id": 2988828,
+            "name": "jei_1.12.2-4.15.0.296",
+            "metadata": {
+              "sha1": "05554fafd70fac24fabdc64fe9a7a278260d667e",
+              "size": 653115,
+              "path": "mods/jei_1.12.2-4.15.0.296.jar",
+              "url": "/mods/238222/2988828/jei_1.12.2-4.15.0.296.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 242818,
+          "name": "CodeChicken Lib 1.8.+",
+          "version": {
+            "id": 2779848,
+            "name": "CodeChicken Lib 1.12.2-3.2.3",
+            "metadata": {
+              "sha1": "b6a7e3b889c354216059a3bfad298e30a1e46a2d",
+              "size": 704330,
+              "path": "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+              "url": "/mods/242818/2779848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 247694,
+          "name": "Not Enough Items 1.8.+",
+          "version": {
+            "id": 2755792,
+            "name": "Not Enough Items 1.12.2-2.4.3",
+            "metadata": {
+              "sha1": "3a2b36219576a8bbe4abd89476393c4c04e379b9",
+              "size": 470831,
+              "path": "mods/NotEnoughItems-1.12.2-2.4.3.245-universal.jar",
+              "url": "/mods/247694/2755792/NotEnoughItems-1.12.2-2.4.3.245-universal.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 238222,
+              "dependencyType": "required"
+            },
+            {
+              "gameType": "mod",
+              "id": 242818,
+              "dependencyType": "required"
+            }
+          ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 228756,
+          "name": "Iron Chests",
+          "version": {
+            "id": 11000756,
+            "name": "ironchest_1.12.2_7.0.72.847",
+            "metadata": {
+              "sha1": "adc4c785a484c5d5a4ab9a29e1937faeed4312dd",
+              "size": 956692,
+              "path": "mods/ironchest_1.12.2_7.0.72.847.jar",
+              "url": "/mods/228756/11000756/ironchest1.12.27.0.72.847.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 61811,
+          "name": "Buildcraft",
+          "version": {
+            "id": 2914534,
+            "name": "buildcraft-all-7.99.24.6",
+            "metadata": {
+              "sha1": "bcea1e36e907f5dd3cd949071cad06c4d33b0781",
+              "size": 4809726,
+              "path": "mods/buildcraft-all-7.99.24.6.jar",
+              "url": "/mods/61811/2914534/buildcraft-all-7.99.24.6.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085101015700,
+          "name": "-1,-1",
+          "version": {
+            "id": -35085108617799,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "83ba9799c9f6504c488bf2159081e1ec76c8770e",
+              "size": 8118,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-1,-1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-1,-1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085108645200,
+          "name": "-1,0",
+          "version": {
+            "id": -35085117016999,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9e9575f811e7dfcbada26f3db4e02fed7369ee5b",
+              "size": 32984,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-1,0.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-1,0.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085117034299,
+          "name": "-1,1",
+          "version": {
+            "id": -35085125476499,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9328fcd927253e4ced12913a502e52c7408a9b7d",
+              "size": 19494,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-1,1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-1,1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085125504300,
+          "name": "-2,-1",
+          "version": {
+            "id": -35085131831200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "72df38ef8706b2b27d30964f49b432953e817331",
+              "size": 4731,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-2,-1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-2,-1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085131852799,
+          "name": "-2,0",
+          "version": {
+            "id": -35085141636400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "aed757028431fa2ce6fd1d52ec7d412f11442909",
+              "size": 24704,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-2,0.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-2,0.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085141654599,
+          "name": "-2,1",
+          "version": {
+            "id": -35085149893900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a32d74a15109ee59573e39c43a627578af90443f",
+              "size": 17122,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-2,1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-2,1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085149932200,
+          "name": "-3,-1",
+          "version": {
+            "id": -35085157735000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a7553e91342c3f7997ebe485d16e821c52993dac",
+              "size": 15329,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,-1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,-1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085157754800,
+          "name": "-3,0",
+          "version": {
+            "id": -35085165907700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7bf4190c95ae573835196e1bbe116817976edbe7",
+              "size": 21422,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,0.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,0.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085165929299,
+          "name": "-3,1",
+          "version": {
+            "id": -35085174858300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f479f6c24193794e4e7266e6cab893cbc5fe38f7",
+              "size": 17720,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085174887800,
+          "name": "-3,2",
+          "version": {
+            "id": -35085182390200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "66f938039cec848be741eebb996d16edd2888d87",
+              "size": 21093,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,2.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,2.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085182414000,
+          "name": "-3,3",
+          "version": {
+            "id": -35085188562800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "aec40a69650d964b8d244e84ad757b9f9a23d93c",
+              "size": 7130,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,3.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,3.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085188590200,
+          "name": "-4,-1",
+          "version": {
+            "id": -35085195598600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5d2c2997c134b3a2b601087d106b86d1b07036a5",
+              "size": 13422,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,-1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,-1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085195621600,
+          "name": "-4,0",
+          "version": {
+            "id": -35085204074900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "abc1d5106483026147b585e4de7b6244a352744b",
+              "size": 27549,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,0.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,0.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085204095800,
+          "name": "-4,1",
+          "version": {
+            "id": -35085212188899,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "852e644a5e11114f606950591dfbdfec790e58c4",
+              "size": 25622,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085212210899,
+          "name": "-4,2",
+          "version": {
+            "id": -35085219940500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f6a22eea7a31fa33cd127c04ac285cdf08c22a87",
+              "size": 34467,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,2.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,2.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085219976700,
+          "name": "-4,3",
+          "version": {
+            "id": -35085228808699,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "cecf452c8550c372d1292af2762626e3d4d8eb6a",
+              "size": 29884,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,3.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,3.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085228830700,
+          "name": "-5,-1",
+          "version": {
+            "id": -35085235192200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "940e7566d309fc7f6e57e0d26b677c0516d70a22",
+              "size": 10990,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,-1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,-1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085235215000,
+          "name": "-5,0",
+          "version": {
+            "id": -35085243050400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "777e5854b389f581712dd1c0052e7f0a2d3d8132",
+              "size": 24315,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,0.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,0.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085243074600,
+          "name": "-5,1",
+          "version": {
+            "id": -35085250500900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "c845dc76c87d142a7ef3cc5be41eb8260cf4e21f",
+              "size": 35461,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085250539900,
+          "name": "-5,2",
+          "version": {
+            "id": -35085259365300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ed13cfb32e80b8b15d7d168091c94ab048d6469c",
+              "size": 41357,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,2.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,2.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085259391100,
+          "name": "-5,3",
+          "version": {
+            "id": -35085267046399,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "24ed7ff2f2df9f96ccef478e4e27b0809f27b06b",
+              "size": 37156,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,3.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,3.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085267072100,
+          "name": "-5,4",
+          "version": {
+            "id": -35085273523700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6f5a3303680d9c99b3d3dd14e05d4d95d29a4e29",
+              "size": 2318,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,4.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,4.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085273551000,
+          "name": "-6,-1",
+          "version": {
+            "id": -35085280667300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0bc76726de9467d10074e5029d222e29ba6285db",
+              "size": 20165,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-6,-1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-6,-1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085280692300,
+          "name": "-6,0",
+          "version": {
+            "id": -35085288087399,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "13dde127255a828276f1c74fdc5bf07bae7a0007",
+              "size": 31554,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-6,0.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-6,0.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085288112800,
+          "name": "-6,1",
+          "version": {
+            "id": -35085296034500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2cb201c12140f26872243f2f3d6de4668e7c0ff5",
+              "size": 34860,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-6,1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-6,1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085296061600,
+          "name": "-6,2",
+          "version": {
+            "id": -35085303907499,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "66bdc5cf0e32355dd84177d34989fc40bb331657",
+              "size": 59185,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-6,2.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-6,2.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085303934400,
+          "name": "-6,3",
+          "version": {
+            "id": -35085311419500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "628b584357bc9b24afd5ce76dcfed0d4f284bb39",
+              "size": 31745,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-6,3.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-6,3.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085311447800,
+          "name": "-7,-1",
+          "version": {
+            "id": -35085319338100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "51a0d60c66fe3fe4cff8d7af92377ea855c86adf",
+              "size": 20959,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-7,-1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-7,-1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085319363900,
+          "name": "-7,0",
+          "version": {
+            "id": -35085327518400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "3d8131980ff0023a318cac19eb4a626a6001ab22",
+              "size": 55834,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-7,0.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-7,0.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085327544599,
+          "name": "-7,1",
+          "version": {
+            "id": -35085334959300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "189fcda6ae7280126f7a8fdd3fd03f119219ea09",
+              "size": 30564,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-7,1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-7,1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085334985700,
+          "name": "-7,2",
+          "version": {
+            "id": -35085343241900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "609bade497a3ae554fa3f122fd42f145549d5322",
+              "size": 27746,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-7,2.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-7,2.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085343271500,
+          "name": "-7,3",
+          "version": {
+            "id": -35085350499000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "70da402c9644c7dc7a782f8ad960d4e15fd1470d",
+              "size": 24997,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-7,3.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-7,3.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085350536600,
+          "name": "-8,-1",
+          "version": {
+            "id": -35085357545699,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "98600b2127738e6649ab9775b0ae08848ef02d00",
+              "size": 4340,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-8,-1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-8,-1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085357573300,
+          "name": "-8,0",
+          "version": {
+            "id": -35085365142400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "18147a3251569a76d3f4fb3a7d02bd7542d66017",
+              "size": 47079,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-8,0.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-8,0.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085365169899,
+          "name": "-8,1",
+          "version": {
+            "id": -35085372790100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0c0f46056664cb3fb57092346312f962c870d835",
+              "size": 35988,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-8,1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-8,1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085372822600,
+          "name": "-8,2",
+          "version": {
+            "id": -35085380535600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "179eb19b679d990b6decb3793eba2e0a0b71ec36",
+              "size": 33502,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-8,2.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-8,2.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085380563699,
+          "name": "-8,3",
+          "version": {
+            "id": -35085388138800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a952fddd60511843baa38da7c69ebf6f3fb947d9",
+              "size": 22559,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-8,3.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-8,3.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085388170600,
+          "name": "0,-1",
+          "version": {
+            "id": -35085395040199,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e31ca486bf6b16c5bbae52becfc26d552f64e5ed",
+              "size": 4183,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/0,-1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/0,-1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085395077000,
+          "name": "0,0",
+          "version": {
+            "id": -35085432830799,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d4b1e0648624872faba84ad67f9d32b19188d528",
+              "size": 14265,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/0,0.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/0,0.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -35085432863500,
+          "name": "0,1",
+          "version": {
+            "id": -35085442419200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2af9746a7a5178c5bdfa342041dcc88d2f867b92",
+              "size": 10454,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/0,1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/0,1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662154173900,
+          "name": "-1,2",
+          "version": {
+            "id": -48662164506100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "bfba99c8a79acb0d7222de071f5b71d144fca3cc",
+              "size": 85330,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-1,2.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-1,2.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662164531200,
+          "name": "-1,3",
+          "version": {
+            "id": -48662172727500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "dccbf2f6644091fcc407cf8cc0b20d0e05e71656",
+              "size": 37726,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-1,3.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-1,3.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662172767800,
+          "name": "-10,2",
+          "version": {
+            "id": -48662179964800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0c7cb7ba47516c17a1d9e4ab2b1173f8351d0f3c",
+              "size": 17778,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-10,2.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-10,2.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662179989300,
+          "name": "-10,3",
+          "version": {
+            "id": -48662188336900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b7bdba83e5af24b4951c1979fe4ade460735590a",
+              "size": 80300,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-10,3.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-10,3.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662188364900,
+          "name": "-10,4",
+          "version": {
+            "id": -48662200062000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "dc5ea7d656018ccd9e3fa5d55fa7e857e9a63d5d",
+              "size": 76620,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-10,4.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-10,4.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662200090800,
+          "name": "-10,5",
+          "version": {
+            "id": -48662211529800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "30387c73b721812a97d0c272eb6838c817037c1a",
+              "size": 22926,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-10,5.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-10,5.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662211557800,
+          "name": "-11,2",
+          "version": {
+            "id": -48662220265500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e31f2ef90d2feae9abe63d4bca3b9e508eddf315",
+              "size": 5930,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-11,2.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-11,2.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662220295400,
+          "name": "-11,3",
+          "version": {
+            "id": -48662229902800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b0b66ce2d6e3df46d390256883a5fb46ceed61c8",
+              "size": 30364,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-11,3.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-11,3.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662229932800,
+          "name": "-11,4",
+          "version": {
+            "id": -48662238905400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "aac93130c88d04a4adac2bbbcc87df40947ffdb5",
+              "size": 29443,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-11,4.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-11,4.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662238936400,
+          "name": "-11,5",
+          "version": {
+            "id": -48662245941000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4143bcd6bb545ebf6a44be7903a034d550961e54",
+              "size": 1929,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-11,5.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-11,5.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662245979800,
+          "name": "-2,2",
+          "version": {
+            "id": -48662255322500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "fe52a1bc2552f0830504c67d0761a68acdb8040c",
+              "size": 85264,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-2,2.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-2,2.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662255353600,
+          "name": "-2,3",
+          "version": {
+            "id": -48662264401900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "26749553ef73ae535b871cf2dbeac8500775a3ef",
+              "size": 65606,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-2,3.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-2,3.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662264439100,
+          "name": "-2,4",
+          "version": {
+            "id": -48662275937300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "477841c5be721ce2dc3e7d1af51b2c4800e3583e",
+              "size": 47327,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-2,4.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-2,4.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662275968200,
+          "name": "-2,5",
+          "version": {
+            "id": -48662283916800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e98e0bc4b839f2887178af65864e7d5227395ab2",
+              "size": 8594,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-2,5.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-2,5.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662283964000,
+          "name": "-3,4",
+          "version": {
+            "id": -48662295893900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4cb4abc5d1a1b63e968fea6f9258f3ac9fbcc7b6",
+              "size": 83253,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-3,4.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-3,4.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662295925400,
+          "name": "-3,5",
+          "version": {
+            "id": -48662308895100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a270e67c0a0bdd362f1e2b3810727af3ec2b74d4",
+              "size": 17223,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-3,5.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-3,5.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662308943400,
+          "name": "-4,4",
+          "version": {
+            "id": -48662320553800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ec103e9f9bda29ccb7698a3c73554d89cef4e4e2",
+              "size": 91702,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-4,4.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-4,4.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662320587100,
+          "name": "-4,5",
+          "version": {
+            "id": -48662333317600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "dfbe21e74a7c9a8472d46ea08bd1d58ab4177afd",
+              "size": 25613,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-4,5.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-4,5.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662333370400,
+          "name": "-5,5",
+          "version": {
+            "id": -48662344613800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "cbbf4865926872b17a02e882c440e4e559bd948c",
+              "size": 33465,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-5,5.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-5,5.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662344657800,
+          "name": "-6,4",
+          "version": {
+            "id": -48662356904500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "bad4f4bc810efe424e32ef65a03b871c6474151d",
+              "size": 78129,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-6,4.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-6,4.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662356937700,
+          "name": "-6,5",
+          "version": {
+            "id": -48662369316900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ad5e66079ec84bab345e55e815037439f6b4dfb2",
+              "size": 38638,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-6,5.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-6,5.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662369359100,
+          "name": "-7,4",
+          "version": {
+            "id": -48662380526900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "11ce6da95cc0f55972b2db32c5efcfe361f3f24e",
+              "size": 79307,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-7,4.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-7,4.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662380561900,
+          "name": "-7,5",
+          "version": {
+            "id": -48662390770500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a25d4d3afb1936cc16df7d8e08ccee63045e1dfa",
+              "size": 34679,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-7,5.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-7,5.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662390812100,
+          "name": "-8,4",
+          "version": {
+            "id": -48662404075500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6a19e78b2b93844c7c4bb64d8e480452606f4ca9",
+              "size": 78226,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-8,4.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-8,4.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662404138200,
+          "name": "-8,5",
+          "version": {
+            "id": -48662413672300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "c299bdeb98ea05f680026aa970232f209377c1fe",
+              "size": 18969,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-8,5.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-8,5.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662413707400,
+          "name": "-9,2",
+          "version": {
+            "id": -48662422977500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "31b8832f342a5ddde448ebcc1e1753f465fea105",
+              "size": 11413,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-9,2.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-9,2.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662423017200,
+          "name": "-9,3",
+          "version": {
+            "id": -48662434376600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "38bfac81240f5bb58bd13617a570952757ebcc92",
+              "size": 74324,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-9,3.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-9,3.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662434416500,
+          "name": "-9,4",
+          "version": {
+            "id": -48662446409600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "cb0090a3c7de49ad2d76bbd65f4257ec693398a7",
+              "size": 67766,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-9,4.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-9,4.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -48662446445700,
+          "name": "-9,5",
+          "version": {
+            "id": -48662456833600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9114c8b9056c103995b8b4ab50e6d27082406301",
+              "size": 44205,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-9,5.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-9,5.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -51555091612000,
+          "name": "-10,6",
+          "version": {
+            "id": -51555102156200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ff5aff3320452d0b1293b29b995f446ec469687b",
+              "size": 56078,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-10,6.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-10,6.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -51555102230000,
+          "name": "-11,6",
+          "version": {
+            "id": -51555112210800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "48d8035c36d71a4d09699c84f4e9c85aadecf835",
+              "size": 36620,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-11,6.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-11,6.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -51555112504500,
+          "name": "-9,6",
+          "version": {
+            "id": -51555122772400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a7890a2427227757cfd51c4a59cacca50272b659",
+              "size": 48372,
+              "path": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-9,6.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/New World/overworld (dimension 0)/-9,6.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -122231484529800,
+          "name": "-2,6",
+          "version": {
+            "id": -122231494024500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e6b6c8f68685ca39d9173b76008370aa169c08b4",
+              "size": 26163,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-2,6.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-2,6.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -122231494068700,
+          "name": "-2,7",
+          "version": {
+            "id": -122231501106400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "566d07272e0a9dbad8d3ffbfe82d7eb64336952f",
+              "size": 2595,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-2,7.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-2,7.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -122231501171200,
+          "name": "-3,6",
+          "version": {
+            "id": -122231510646500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "904f474fccaa5ade7457d956ef2f508485b7d184",
+              "size": 46720,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,6.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,6.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -122231510685300,
+          "name": "-3,7",
+          "version": {
+            "id": -122231517670900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "81f839a9ce1ef97c33091b839ddd40957b048b53",
+              "size": 4550,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,7.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-3,7.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -122231517752400,
+          "name": "-4,6",
+          "version": {
+            "id": -122231525927600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9989736f6a67b5556f573403d7b48786a5423803",
+              "size": 39584,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,6.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,6.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -122231525971500,
+          "name": "-4,7",
+          "version": {
+            "id": -122231532473600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "57ec05273daa32afe95975b5b540494ec3be2823",
+              "size": 3894,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,7.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-4,7.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -122231532555000,
+          "name": "-5,6",
+          "version": {
+            "id": -122231541107500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f53e3e38365472ffaf00f8612b9fa2509c09d532",
+              "size": 33325,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,6.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-5,6.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -122231541178800,
+          "name": "-6,6",
+          "version": {
+            "id": -122231549279800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9ffeffc952ab076fbbab611e8cd5c5d2bb4d8644",
+              "size": 17665,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-6,6.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-6,6.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -135062388756100,
+          "name": "-9,-1",
+          "version": {
+            "id": -135062397530800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "101451373f2a50baebfd2f9000b4aa3fb4017b72",
+              "size": 4778,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-9,-1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-9,-1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -135062397576399,
+          "name": "-9,0",
+          "version": {
+            "id": -135062405871300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "aaea9ced36800f3a6aae87697c4bc38e42245f31",
+              "size": 43789,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-9,0.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-9,0.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -135062405911200,
+          "name": "-9,1",
+          "version": {
+            "id": -135062414346900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6fe6366e482f629f91ff37b2ae5045e75e7f2a67",
+              "size": 55765,
+              "path": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-9,1.zip",
+              "url": "mods/VoxelMods/voxelMap/cache/mirok/overworld (dimension 0)/-9,1.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 9999999,
+          "name": "OptiFine",
+          "version": {
+            "id": 11000400,
+            "name": "1.12.2 HD U F6 pre1",
+            "metadata": {
+              "sha1": "23a8be042f354ec97c99672906c3e61fdf54ca2c",
+              "size": 2599250,
+              "path": "mods/preview_OptiFine_1.12.2_HD_U_F6_pre1.jar",
+              "url": "/mods/9999999/11000400/preview_OptiFine_1.12.2_HD_U_F6_pre1.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 227391,
+          "name": "ElecCore",
+          "version": {
+            "id": 2853959,
+            "name": "1.12.2-1.9.453",
+            "metadata": {
+              "sha1": "112cda98b049902b8c073ec37b96495ff5e0bdf6",
+              "size": 544144,
+              "path": "mods/ElecCore-1.12.2-1.9.453.jar",
+              "url": "/mods/227391/2853959/ElecCore-1.12.2-1.9.453.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 265640,
+          "name": "Huds - Armor Status & Damage Indicators",
+          "version": {
+            "id": 2854134,
+            "name": "Huds-1.12.2-1.0.6",
+            "metadata": {
+              "sha1": "8e4d64732a3a6041fd47c45f58908031c9b7251a",
+              "size": 25762,
+              "path": "mods/Huds-1.12.2-1.0.6.jar",
+              "url": "/mods/265640/2854134/Huds-1.12.2-1.0.6.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 227391,
+              "dependencyType": "required"
+            }
+          ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 230976,
+          "name": "Fast Leaf Decay",
+          "version": {
+            "id": 2463272,
+            "name": "v14",
+            "metadata": {
+              "sha1": "635bd0338a5b1e3b67b50f5a4c7311e1a6b579f6",
+              "size": 5200,
+              "path": "mods/FastLeafDecay-v14.jar",
+              "url": "/mods/230976/2463272/FastLeafDecay-v14.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        }
+      ],
+      "resourcePacks": [],
+      "maps": [
+        {
+          "stateGameElement": "active",
+          "id": -52242641482500,
+          "name": "mirok",
+          "version": {
+            "id": -52242641808500,
+            "name": "1.0",
+            "metadata": {
+              "folders": [
+                "mirok"
+              ],
+              "size": 0,
+              "path": "saves/mirok",
+              "url": "saves/mirok"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -52242641819800,
+          "name": "NEI",
+          "version": {
+            "id": -52242641858600,
+            "name": "1.0",
+            "metadata": {
+              "folders": [
+                "NEI"
+              ],
+              "size": 0,
+              "path": "saves/NEI",
+              "url": "saves/NEI"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -52242641863100,
+          "name": "New World",
+          "version": {
+            "id": -52242641884300,
+            "name": "1.0",
+            "metadata": {
+              "folders": [
+                "New World"
+              ],
+              "size": 0,
+              "path": "saves/New World",
+              "url": "saves/New World"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -143962804847700,
+          "name": "New World2",
+          "version": {
+            "id": -143962805015200,
+            "name": "1.0",
+            "metadata": {
+              "folders": [
+                "New World2"
+              ],
+              "size": 0,
+              "path": "saves/New World2",
+              "url": "saves/New World2"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        }
+      ],
+      "shaderpacks": [],
+      "forgeVersion": "14.23.5.2854",
+      "gameVersion": "1.12.2",
+      "id": -5160601681801,
+      "name": "1.0"
+    },
+    "versions": [],
+    "userInstall": false,
+    "populateStatus": false
+  }
+}
