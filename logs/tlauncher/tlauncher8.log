@@ -1,0 +1,622 @@
+2020-06-30 00:48:50,659 main [Loading] INITIALIZING
+Starting TLauncher 2.69 RELEASE
+For more information, visit https://tlauncher.org/
+Startup time: 30.06.2020 0:48:49
+---
+run double running protectin
+[Loading] LOADING_CONFIGURATION
+Loading configuration from file: C:\Users\alexa\AppData\Roaming\.tlauncher\tlauncher-2.0.properties
+[Configuration] Constant values: {}
+Machine info: -------------------------------------------------------
+Windows 10 10.0, Java 1.8.0_251, jvm bit x64, 8058 MB RAM
+java path=C:\Program Files\Java\jre1.8.0_251\bin\javaw.exe
+Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz
+ Intel(R) HD Graphics 630, Intel(R) HD Graphics Family, 4157 MB, NVIDIA GeForce GTX 1050, GeForce GTX 1050, 8048 MB
+-------------------------------------------------------
+Selected locale: ru_RU
+[Loading] LOADING_CONSOLE
+[Swing] Favicons loaded: 256px, 128px, 96px, 64px, 48px, 32px, 24px, 16px
+
+
+2020-06-30 00:48:50,659 main [Downloader2] Loaded configuration: good
+2020-06-30 00:48:50,800 ExtendedThread#4 [Updater] Requesting an update...
+2020-06-30 00:48:50,800 ExtendedThread#4 [Updater] Requesting from: http://repo.tlauncher.org/update/lch/update_2.0.json
+2020-06-30 00:48:50,800 ExtendedThread#4 [Updater] Making request: http://repo.tlauncher.org/update/lch/update_2.0.json?version=2.69&client=d069d3cc-efcc-4b44-8730-73509496a51e
+2020-06-30 00:48:50,878 ExtendedThread#4 [Updater] Request time: 78 ms
+2020-06-30 00:48:50,878 ExtendedThread#4 [Updater] Successfully requested from: http://repo.tlauncher.org/update/lch/update_2.0.json
+2020-06-30 00:48:51,025 main [Browser] Loading resources...
+2020-06-30 00:48:51,172 main [Browser] Loading background...
+2020-06-30 00:48:51,267 main [Browser] Cleaning up after loading:
+2020-06-30 00:48:51,268 main Starting garbage collector: 24 / 107 MB
+2020-06-30 00:48:51,332 main Garbage collector completed: 15 / 139 MB
+2020-06-30 00:48:51,334 main [Loading] LOADING_MANAGERS
+2020-06-30 00:48:51,345 main [LocalVersionList] Base directory: C:\Games\Minecraft\repos\.minecraft
+2020-06-30 00:48:51,365 main [ProfileManager] Refreshing profiles from: C:\Games\Minecraft\repos\.minecraft\TlauncherProfiles.json
+2020-06-30 00:48:51,371 main [AdvertisingStatusObserver]  started to get ad information
+2020-06-30 00:48:51,371 main [AdvertisingStatusObserver]  finished to get add information
+2020-06-30 00:48:51,374 JavaFX Application Thread [JFXStartPageLoader]  start load page: http://page.tlauncher.org/update/downloads/configs/client/index.html
+2020-06-30 00:48:51,380 main [Loading] LOADING_WINDOW
+2020-06-30 00:48:51,385 ExtendedThread#6 [GsonUtil]  request to http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.6.json
+2020-06-30 00:48:51,402 JavaFX Application Thread [Browser] Running in JavaFX Thread
+2020-06-30 00:48:51,402 JavaFX Application Thread [Browser] Preparing JavaFX...
+2020-06-30 00:48:51,487 JavaFX Application Thread [Browser] Initializing...
+2020-06-30 00:48:51,504 main [Loading] PREPARING_MAINPANE
+2020-06-30 00:48:51,698 ExtendedThread#4 [REPO][SERVER_LIST_REPO] Success: Reached the repo in 318 ms.
+2020-06-30 00:48:52,121 main [Downloader2] Loaded configuration: good
+2020-06-30 00:48:52,810 JavaFX Application Thread [JFXStartPageLoader]  succeeded load page: http://page.tlauncher.org/update/downloads/configs/client/index.html during 1
+2020-06-30 00:48:52,811 JavaFX Application Thread [Browser@976377229] Loaded successfully: "http://page.tlauncher.org/update/downloads/configs/client/index.html"
+2020-06-30 00:48:52,911 JavaFX Application Thread [Browser] add listens into server_choose
+2020-06-30 00:48:52,912 JavaFX Application Thread [Browser] finished listens into server_choose
+2020-06-30 00:48:53,444 main [Loading] POSTINIT_GUI
+2020-06-30 00:48:53,445 main [Frame] Packing main frame...
+2020-06-30 00:48:53,530 main [Frame] Resizing main pane...
+2020-06-30 00:48:53,531 main Updater is already closed. Showing up...
+2020-06-30 00:48:53,531 main Visibility set.
+2020-06-30 00:48:53,533 main [Loading] REFRESHING_INFO
+2020-06-30 00:48:53,537 main Started! (3538 ms.)
+2020-06-30 00:48:53,538 main [Loading] SUCCESS
+2020-06-30 00:48:53,538 ExtendedThread#6 [VersionManager] Refreshing versions remotely...
+2020-06-30 00:48:53,539 ExtendedThread#4 [REPO][EXTRA_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/
+2020-06-30 00:48:53,569 main [TLauncher] show tlauncher!!!
+2020-06-30 00:48:53,569 main [Double running] clear time label
+2020-06-30 00:48:53,637 ExtendedThread#4 [REPO][EXTRA_VERSION_REPO] Success: Reached the repo in 98 ms.
+2020-06-30 00:48:53,701 AsyncObject#12 [REPO][OFFICIAL_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: https://launchermeta.mojang.com/mc/game/
+2020-06-30 00:48:53,702 AsyncObject#13 [REPO][EXTRA_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/
+2020-06-30 00:48:53,702 AsyncObject#14 [REPO][SKIN_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/skin/versions/
+2020-06-30 00:48:53,730 AsyncObject#14 [REPO][SKIN_VERSION_REPO] Success: Reached the repo in 27 ms.
+2020-06-30 00:48:53,733 AsyncObject#13 [REPO][EXTRA_VERSION_REPO] Success: Reached the repo in 31 ms.
+2020-06-30 00:48:53,750 AsyncObject#14 [SkinVersionList] Got in 48 ms
+2020-06-30 00:48:53,778 AsyncObject#13 [ExtraVersionList] Got in 77 ms
+2020-06-30 00:48:53,851 AsyncObject#12 [REPO][OFFICIAL_VERSION_REPO] Success: Reached the repo in 148 ms.
+2020-06-30 00:48:53,917 AsyncObject#12 [OfficialVersionList] Got in 216 ms
+2020-06-30 00:48:53,919 ExtendedThread#6 [VersionManager] Versions has been refreshed (308 ms)
+2020-06-30 00:48:54,695 ExtendedThread#15 [REPO][ADD_HOT_SERVERS_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/lch/additional_hot_servers-1.0.json
+2020-06-30 00:48:54,700 ExtendedThread#16 [REPO][HOT_SERVERS_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/lch/servers/hot_servers-1.0.json
+2020-06-30 00:48:54,704 Thread-16 run server on  37842
+2020-06-30 00:48:54,739 ExtendedThread#15 [REPO][ADD_HOT_SERVERS_REPO] Success: Reached the repo in 41 ms.
+2020-06-30 00:48:54,799 ExtendedThread#16 [REPO][HOT_SERVERS_REPO] Success: Reached the repo in 96 ms.
+2020-06-30 00:49:35,480 AWT-EventQueue-0 false
+2020-06-30 00:49:35,481 AWT-EventQueue-0 instancefor: Account{displayName=null, type=TLAUNCHER, accessToken=(not null), userid=null, uuid=null, username=alexagapov2000@gmail.com}
+2020-06-30 00:49:35,499 ExtendedThread#4 [TlauncherAuthenticator] Staring to authenticate: Account{displayName=null, type=TLAUNCHER, accessToken=(not null), userid=null, uuid=null, username=alexagapov2000@gmail.com}
+2020-06-30 00:49:35,502 ExtendedThread#4 [TlauncherAuthenticator] hasUsername: alexagapov2000@gmail.com
+2020-06-30 00:49:35,504 ExtendedThread#4 [TlauncherAuthenticator] hasPassword: true
+2020-06-30 00:49:35,504 ExtendedThread#4 [TlauncherAuthenticator] hasAccessToken: false
+2020-06-30 00:49:35,505 ExtendedThread#4 [TlauncherAuthenticator] Loggining in with password
+2020-06-30 00:49:35,829 ExtendedThread#4 [TlauncherAuthenticator] Log in successful!
+2020-06-30 00:49:35,830 ExtendedThread#4 [TlauncherAuthenticator] hasUUID: true
+2020-06-30 00:49:35,831 ExtendedThread#4 [TlauncherAuthenticator] hasAccessToken: true
+2020-06-30 00:49:35,832 ExtendedThread#4 [TlauncherAuthenticator] hasProfiles: true
+2020-06-30 00:49:35,833 ExtendedThread#4 [TlauncherAuthenticator] hasProfile: true
+2020-06-30 00:49:35,834 ExtendedThread#4 [TlauncherAuthenticator] hasProperties: true
+2020-06-30 00:49:35,844 ExtendedThread#16 [GsonUtil]  request to http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.6.json
+2020-06-30 00:50:49,010 AWT-EventQueue-0 Removing Account{displayName=alexagapov2000, type=TLAUNCHER, accessToken=(not null), userid=alexagapov2000@gmail.com, uuid=08ea14a4b8bd11ea8bbab42e996a7d7a, username=alexagapov2000@gmail.com}
+2020-06-30 00:50:49,015 ExtendedThread#17 [GsonUtil]  request to http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.6.json
+2020-06-30 00:50:54,135 AWT-EventQueue-0 [ProfileManager] Refreshing profiles from: C:\Games\Minecraft\repos\.minecraft\TlauncherProfiles.json
+2020-06-30 00:50:54,140 AWT-EventQueue-0 [AdvertisingStatusObserver]  started to get ad information
+2020-06-30 00:50:54,142 AWT-EventQueue-0 [AdvertisingStatusObserver]  finished to get add information
+2020-06-30 00:50:54,144 ExtendedThread#17 [GsonUtil]  request to http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.6.json
+2020-06-30 00:51:20,627 AWT-EventQueue-0 false
+2020-06-30 00:51:20,627 AWT-EventQueue-0 instancefor: Account{displayName=null, type=TLAUNCHER, accessToken=(not null), userid=null, uuid=null, username=alexagapov2000}
+2020-06-30 00:51:20,644 ExtendedThread#17 [TlauncherAuthenticator] Staring to authenticate: Account{displayName=null, type=TLAUNCHER, accessToken=(not null), userid=null, uuid=null, username=alexagapov2000}
+2020-06-30 00:51:20,647 ExtendedThread#17 [TlauncherAuthenticator] hasUsername: alexagapov2000
+2020-06-30 00:51:20,648 ExtendedThread#17 [TlauncherAuthenticator] hasPassword: true
+2020-06-30 00:51:20,648 ExtendedThread#17 [TlauncherAuthenticator] hasAccessToken: false
+2020-06-30 00:51:20,649 ExtendedThread#17 [TlauncherAuthenticator] Loggining in with password
+2020-06-30 00:51:21,050 ExtendedThread#17 [TlauncherAuthenticator] Log in successful!
+2020-06-30 00:51:21,051 ExtendedThread#17 [TlauncherAuthenticator] hasUUID: true
+2020-06-30 00:51:21,052 ExtendedThread#17 [TlauncherAuthenticator] hasAccessToken: true
+2020-06-30 00:51:21,053 ExtendedThread#17 [TlauncherAuthenticator] hasProfiles: true
+2020-06-30 00:51:21,054 ExtendedThread#17 [TlauncherAuthenticator] hasProfile: true
+2020-06-30 00:51:21,055 ExtendedThread#17 [TlauncherAuthenticator] hasProperties: true
+2020-06-30 00:51:21,064 ExtendedThread#18 [GsonUtil]  request to http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.6.json
+2020-06-30 00:52:12,988 AWT-EventQueue-0 false
+2020-06-30 00:52:12,988 AWT-EventQueue-0 instancefor: Account{displayName=alexagapov2000, type=TLAUNCHER, accessToken=(not null), userid=alexagapov2000, uuid=08ea14a4b8bd11ea8bbab42e996a7d7a, username=alexagapov2000}
+2020-06-30 00:52:13,001 ExtendedThread#18 [TlauncherAuthenticator] Staring to authenticate: Account{displayName=alexagapov2000, type=TLAUNCHER, accessToken=(not null), userid=alexagapov2000, uuid=08ea14a4b8bd11ea8bbab42e996a7d7a, username=alexagapov2000}
+2020-06-30 00:52:13,005 ExtendedThread#18 [TlauncherAuthenticator] hasUsername: alexagapov2000
+2020-06-30 00:52:13,006 ExtendedThread#18 [TlauncherAuthenticator] hasPassword: false
+2020-06-30 00:52:13,007 ExtendedThread#18 [TlauncherAuthenticator] hasAccessToken: true
+2020-06-30 00:52:13,007 ExtendedThread#18 [TlauncherAuthenticator] Loggining in with token
+2020-06-30 00:52:13,290 ExtendedThread#18 [TlauncherAuthenticator] Log in successful!
+2020-06-30 00:52:13,291 ExtendedThread#18 [TlauncherAuthenticator] hasUUID: true
+2020-06-30 00:52:13,292 ExtendedThread#18 [TlauncherAuthenticator] hasAccessToken: true
+2020-06-30 00:52:13,293 ExtendedThread#18 [TlauncherAuthenticator] hasProfiles: true
+2020-06-30 00:52:13,294 ExtendedThread#18 [TlauncherAuthenticator] hasProfile: true
+2020-06-30 00:52:13,295 ExtendedThread#18 [TlauncherAuthenticator] hasProperties: true
+2020-06-30 00:52:20,261 AWT-EventQueue-0 false
+2020-06-30 00:52:20,261 AWT-EventQueue-0 instancefor: Account{displayName=alexagapov2000, type=TLAUNCHER, accessToken=(not null), userid=alexagapov2000, uuid=08ea14a4b8bd11ea8bbab42e996a7d7a, username=alexagapov2000}
+2020-06-30 00:52:20,272 ExtendedThread#18 [TlauncherAuthenticator] Staring to authenticate: Account{displayName=alexagapov2000, type=TLAUNCHER, accessToken=(not null), userid=alexagapov2000, uuid=08ea14a4b8bd11ea8bbab42e996a7d7a, username=alexagapov2000}
+2020-06-30 00:52:20,276 ExtendedThread#18 [TlauncherAuthenticator] hasUsername: alexagapov2000
+2020-06-30 00:52:20,277 ExtendedThread#18 [TlauncherAuthenticator] hasPassword: false
+2020-06-30 00:52:20,278 ExtendedThread#18 [TlauncherAuthenticator] hasAccessToken: true
+2020-06-30 00:52:20,279 ExtendedThread#18 [TlauncherAuthenticator] Loggining in with token
+2020-06-30 00:52:20,568 ExtendedThread#18 [TlauncherAuthenticator] Log in successful!
+2020-06-30 00:52:20,569 ExtendedThread#18 [TlauncherAuthenticator] hasUUID: true
+2020-06-30 00:52:20,570 ExtendedThread#18 [TlauncherAuthenticator] hasAccessToken: true
+2020-06-30 00:52:20,571 ExtendedThread#18 [TlauncherAuthenticator] hasProfiles: true
+2020-06-30 00:52:20,572 ExtendedThread#18 [TlauncherAuthenticator] hasProfile: true
+2020-06-30 00:52:20,573 ExtendedThread#18 [TlauncherAuthenticator] hasProperties: true
+2020-06-30 00:53:44,951 LoopedThread#7 [LoginForm] Catched a wait task from this listener, waiting...
+2020-06-30 00:53:44,953 LoopedThread#7 instancefor: Account{displayName=alexagapov2000, type=TLAUNCHER, accessToken=(not null), userid=alexagapov2000, uuid=08ea14a4b8bd11ea8bbab42e996a7d7a, username=alexagapov2000}
+2020-06-30 00:53:44,971 LoopedThread#7 [TlauncherAuthenticator] Staring to authenticate: Account{displayName=alexagapov2000, type=TLAUNCHER, accessToken=(not null), userid=alexagapov2000, uuid=08ea14a4b8bd11ea8bbab42e996a7d7a, username=alexagapov2000}
+2020-06-30 00:53:44,975 LoopedThread#7 [TlauncherAuthenticator] hasUsername: alexagapov2000
+2020-06-30 00:53:44,976 LoopedThread#7 [TlauncherAuthenticator] hasPassword: false
+2020-06-30 00:53:44,977 LoopedThread#7 [TlauncherAuthenticator] hasAccessToken: true
+2020-06-30 00:53:44,978 LoopedThread#7 [TlauncherAuthenticator] Loggining in with token
+2020-06-30 00:53:45,116 LoopedThread#7 [TlauncherAuthenticator] Log in successful!
+2020-06-30 00:53:45,117 LoopedThread#7 [TlauncherAuthenticator] hasUUID: true
+2020-06-30 00:53:45,118 LoopedThread#7 [TlauncherAuthenticator] hasAccessToken: true
+2020-06-30 00:53:45,119 LoopedThread#7 [TlauncherAuthenticator] hasProfiles: true
+2020-06-30 00:53:45,120 LoopedThread#7 [TlauncherAuthenticator] hasProfile: true
+2020-06-30 00:53:45,121 LoopedThread#7 [TlauncherAuthenticator] hasProperties: true
+2020-06-30 00:53:45,138 LoopedThread#7 [LoginForm] Login was OK. Trying to launch now.
+2020-06-30 00:53:45,465 LoopedThread#7 [Launcher] Running under TLauncher 2.69
+2020-06-30 00:53:45,467 LoopedThread#7 [Launcher] Collecting info...
+2020-06-30 00:53:45,491 LoopedThread#7 [TLauncherManager] written:  []
+2020-06-30 00:53:45,492 LoopedThread#7 [Launcher] Force update: false
+2020-06-30 00:53:45,493 LoopedThread#7 [Launcher] Selected version: industrial
+2020-06-30 00:53:45,494 LoopedThread#7 [Launcher] Selected account: Account{displayName=alexagapov2000, type=TLAUNCHER, accessToken=(not null), userid=alexagapov2000, uuid=08ea14a4b8bd11ea8bbab42e996a7d7a, username=alexagapov2000}
+2020-06-30 00:53:45,497 LoopedThread#7 [Launcher] Version sync info: VersionSyncInfo{id='industrial',
+local=CompleteVersion{id='industrial', time=Sun Apr 12 20:57:42 MSK 2020, release=Mon Sep 18 11:39:46 MSK 2017, type=release, class=net.minecraft.launchwrapper.Launch, minimumVersion=18, assets='1.12', source=LOCAL_VERSION_REPO, list=net.minecraft.launcher.updater.LocalVersionList@51baab5a, libraries=[Library{name='net.minecraftforge:forge:1.12.2-14.23.5.2854', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.ow2.asm:asm-debug-all:5.2', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.minecraft:launchwrapper:1.12', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.jline:jline:3.5.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.typesafe.akka:akka-actor_2.11:2.3.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.typesafe:config:1.2.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.scala-lang:scala-actors-migration_2.11:1.1.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.scala-lang:scala-compiler:2.11.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.scala-lang:scala-library:2.11.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.scala-lang:scala-parser-combinators_2.11:1.0.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.scala-lang:scala-reflect:2.11.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.scala-lang:scala-swing_2.11:1.0.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.scala-lang:scala-xml_2.11:1.0.2', rules=null, natives=null, extract=null, packed='null'}, Library{name='lzma:lzma:0.0.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='java3d:vecmath:1.5.2', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.sf.trove4j:trove4j:3.0.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.maven:maven-artifact:3.5.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.sf.jopt-simple:jopt-simple:5.0.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:patchy:1.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='oshi-project:oshi-core:1.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.java.dev.jna:jna:4.4.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.java.dev.jna:platform:3.4.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.ibm.icu:icu4j-core-mojang:51.2', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.sf.jopt-simple:jopt-simple:5.0.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.paulscode:codecjorbis:20101023', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.paulscode:codecwav:20101023', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.paulscode:libraryjavasound:20101123', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.paulscode:librarylwjglopenal:20100824', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.paulscode:soundsystem:20120107', rules=null, natives=null, extract=null, packed='null'}, Library{name='io.netty:netty-all:4.1.9.Final', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.google.guava:guava:21.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.commons:commons-lang3:3.5', rules=null, natives=null, extract=null, packed='null'}, Library{name='commons-io:commons-io:2.5', rules=null, natives=null, extract=null, packed='null'}, Library{name='commons-codec:commons-codec:1.10', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.java.jinput:jinput:2.0.5', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.java.jutils:jutils:1.0.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.google.code.gson:gson:2.8.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:authlib:1.5.25', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:realms:1.10.22', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.commons:commons-compress:1.8.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.httpcomponents:httpclient:4.3.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='commons-logging:commons-logging:1.1.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.httpcomponents:httpcore:4.3.2', rules=null, natives=null, extract=null, packed='null'}, Library{name='it.unimi.dsi:fastutil:7.1.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.logging.log4j:log4j-api:2.8.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.logging.log4j:log4j-core:2.8.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, OSX=natives-osx, WINDOWS=natives-windows}, extract=net.minecraft.launcher.versions.ExtractRules@1f0633cb, packed='null'}, Library{name='org.lwjgl.lwjgl:lwjgl:2.9.2-nightly-20140822', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl.lwjgl:lwjgl_util:2.9.2-nightly-20140822', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl.lwjgl:lwjgl-platform:2.9.2-nightly-20140822', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, OSX=natives-osx, WINDOWS=natives-windows}, extract=net.minecraft.launcher.versions.ExtractRules@157841f4, packed='null'}, Library{name='net.java.jinput:jinput-platform:2.0.5', rules=null, natives={LINUX=natives-linux, OSX=natives-osx, WINDOWS=natives-windows}, extract=net.minecraft.launcher.versions.ExtractRules@1d02590f, packed='null'}, Library{name='com.mojang:text2speech:1.10.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:text2speech:1.10.3', rules=null, natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=net.minecraft.launcher.versions.ExtractRules@1966c18e, packed='null'}, Library{name='ca.weblite:java-objc-bridge:1.0.0', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-osx}, extract=net.minecraft.launcher.versions.ExtractRules@37502102, packed='null'}, Library{name='ca.weblite:java-objc-bridge:1.0.0', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}]},
+remote=null, isInstalled=true, hasRemote=false, isUpToDate=true}
+2020-06-30 00:53:45,608 LoopedThread#7 [Launcher] Java path: C:\Program Files\Java\jre1.8.0_251\bin\javaw.exe
+2020-06-30 00:53:45,611 LoopedThread#7 [Launcher] Checking conditions...
+2020-06-30 00:53:45,621 LoopedThread#7 [Launcher] Comparing assets...
+2020-06-30 00:53:45,621 LoopedThread#7 [AssetsManager] Checking resources...
+2020-06-30 00:53:45,622 LoopedThread#7 [AssetsManager] Reading indexes from file C:\Games\Minecraft\repos\.minecraft\assets\indexes\1.12.json
+2020-06-30 00:53:45,633 LoopedThread#7 [AssetsManager] Fast comparing: true
+2020-06-30 00:53:45,723 LoopedThread#7 [Launcher] Delta time to compare assets: 102 ms.
+2020-06-30 00:53:45,724 LoopedThread#7 [TLauncherManager] add required libraries: industrial
+2020-06-30 00:53:46,134 LoopedThread#7 [VersionManager] Required for version industrial: []
+2020-06-30 00:53:46,136 LoopedThread#7 [Modpack]  got container
+2020-06-30 00:53:46,136 LoopedThread#7 [Modpack]  check resources
+2020-06-30 00:53:46,138 LoopedThread#7 [Modpack]  check CompositeResources
+2020-06-30 00:53:46,158 LoopedThread#7 [TLauncherManager] library will be replaced: com.mojang:authlib:1.5.25
+2020-06-30 00:53:46,160 LoopedThread#7 [TLauncherManager] library will be replaced: com.mojang:patchy:1.1
+2020-06-30 00:53:46,177 LoopedThread#7 [Launcher] Unpacking natives...
+2020-06-30 00:53:46,181 LoopedThread#7 [Launcher] Constructing process...
+2020-06-30 00:53:46,182 LoopedThread#7 [Launcher] Constructing classpath...
+2020-06-30 00:53:46,189 LoopedThread#7 [Launcher] Getting Minecraft arguments...
+2020-06-30 00:53:46,197 LoopedThread#7 [Launcher] Full command (characters are not escaped):
+C:\Program Files\Java\jre1.8.0_251\bin\javaw.exe -Djava.net.preferIPv4Stack=true -Dos.name=Windows 10 -Dos.version=10.0 -Xmn128M -Xmx4096M -Djava.library.path=C:\Games\Minecraft\repos\.minecraft\versions\industrial\natives -cp C:\Games\Minecraft\repos\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2854\forge-1.12.2-14.23.5.2854.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\ow2\asm\asm-debug-all\5.2\asm-debug-all-5.2.jar;C:\Games\Minecraft\repos\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar;C:\Games\Minecraft\repos\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2_mc\scala-continuations-library_2.11-1.0.2_mc.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2_mc\scala-continuations-plugin_2.11.1-1.0.2_mc.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;C:\Games\Minecraft\repos\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar;C:\Games\Minecraft\repos\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar;C:\Games\Minecraft\repos\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\tlauncher\patchy\1.1\patchy-1.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar;C:\Games\Minecraft\repos\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Games\Minecraft\repos\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;C:\Games\Minecraft\repos\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Games\Minecraft\repos\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;C:\Games\Minecraft\repos\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;C:\Games\Minecraft\repos\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;C:\Games\Minecraft\repos\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;C:\Games\Minecraft\repos\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;C:\Games\Minecraft\repos\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar;C:\Games\Minecraft\repos\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Games\Minecraft\repos\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Games\Minecraft\repos\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Games\Minecraft\repos\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;C:\Games\Minecraft\repos\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;C:\Games\Minecraft\repos\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\tlauncher\authlib\1.6.25\authlib-1.6.25.jar;C:\Games\Minecraft\repos\.minecraft\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;C:\Games\Minecraft\repos\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Games\Minecraft\repos\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;C:\Games\Minecraft\repos\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;C:\Games\Minecraft\repos\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar;C:\Games\Minecraft\repos\.minecraft\versions\industrial\industrial.jar -Dminecraft.applet.TargetDirectory=C:\Games\Minecraft\repos\.minecraft\versions\industrial -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true -DLibLoader.modsFolder=C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods net.minecraft.launchwrapper.Launch --username alexagapov2000 --version industrial --gameDir C:\Games\Minecraft\repos\.minecraft\versions\industrial --assetsDir C:\Games\Minecraft\repos\.minecraft\assets --assetIndex 1.12 --uuid 08ea14a4-b8bd-11ea-8bba-b42e996a7d7a --accessToken e16c8eb9-9a07-4a45-979f-dcb36f651d08 --userType mojang --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge --width 925 --height 530
+2020-06-30 00:53:46,290 LoopedThread#7 [Launcher] Launching Minecraft...
+2020-06-30 00:53:46,300 LoopedThread#7 I'm hiding!
+2020-06-30 00:53:46,309 LoopedThread#7 [TLauncherManager] mods after C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\AutoPickup-1.12-2.5.1.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\buildcraft-all-7.99.24.6.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\CodeChickenLib-1.12.2-3.2.3.358-universal.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\ElecCore-1.12.2-1.9.453.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\FastLeafDecay-v14.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\forgemod_VoxelMap-1.9.21_for_1.12.2.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\Huds-1.12.2-1.0.6.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\industrialcraft-2-2.8.220-ex112.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\ironchest_1.12.2_7.0.72.847.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\jei_1.12.2-4.15.0.296.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\NotEnoughItems-1.12.2-2.4.3.245-universal.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\preview_OptiFine_1.12.2_HD_U_F6_pre1.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\tlskincape1.12.2-1.4.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\[1.12]bspkrsCore-universal-7.6.0.1.jar C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\[1.12]TreeCapitator-client-1.43.0.jar
+2020-06-30 00:53:46,336 LoopedThread#7 [Launcher] Starting Minecraft industrial...
+2020-06-30 00:53:46,337 LoopedThread#7 [Launcher] Launching in: C:\Games\Minecraft\repos\.minecraft\versions\industrial
+2020-06-30 00:53:46,338 LoopedThread#7 Starting garbage collector: 183 / 216 MB
+2020-06-30 00:53:46,480 LoopedThread#7 Garbage collector completed: 38 / 212 MB
+2020-06-30 00:53:46,511 LoopedThread#7 [Launcher] Processing post-launch actions. Assist launch: true
+2020-06-30 00:53:47,768 Thread-31 ===============================================================================================
+2020-06-30 00:53:47,770 Thread-31 > 2020-06-30 00:53:47,766 main ERROR Error processing element Queue ([Appenders: null]): CLASS_NOT_FOUND
+2020-06-30 00:53:47,883 Thread-31 > 2020-06-30 00:53:47,883 main ERROR Unable to locate appender "ServerGuiConsole" for logger config "root"
+2020-06-30 00:53:47,959 Thread-31 > [00:53:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+2020-06-30 00:53:47,973 Thread-31 > [00:53:47] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+2020-06-30 00:53:47,975 Thread-31 > [00:53:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+2020-06-30 00:53:47,998 Thread-31 > [00:53:47] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+2020-06-30 00:53:48,000 Thread-31 > [00:53:47] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_251
+2020-06-30 00:53:48,138 Thread-31 > [00:53:48] [main/INFO] [FML]: Searching C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods for mods
+2020-06-30 00:53:48,174 Thread-31 > [00:53:48] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from forgemod_VoxelMap-1.9.21_for_1.12.2.jar
+2020-06-30 00:53:48,196 Thread-31 > [00:53:48] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from preview_OptiFine_1.12.2_HD_U_F6_pre1.jar
+2020-06-30 00:53:48,198 Thread-31 > [00:53:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in tlskincape1.12.2-1.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+2020-06-30 00:53:48,237 Thread-31 > [00:53:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+2020-06-30 00:53:48,240 Thread-31 > [00:53:48] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+2020-06-30 00:53:48,266 Thread-31 > [00:53:48] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Games/Minecraft/repos/.minecraft/versions/industrial/mods/forgemod_VoxelMap-1.9.21_for_1.12.2.jar Service=LaunchWrapper Env=CLIENT
+2020-06-30 00:53:48,694 Thread-31 > [00:53:48] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+2020-06-30 00:53:48,696 Thread-31 > [00:53:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+2020-06-30 00:53:48,698 Thread-31 > [00:53:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+2020-06-30 00:53:48,700 Thread-31 > [00:53:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+2020-06-30 00:53:48,702 Thread-31 > [00:53:48] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+2020-06-30 00:53:48,703 Thread-31 > [00:53:48] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+2020-06-30 00:53:48,706 Thread-31 > [00:53:48] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+2020-06-30 00:53:48,708 Thread-31 > [00:53:48] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+2020-06-30 00:53:48,709 Thread-31 > [00:53:48] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\preview_OptiFine_1.12.2_HD_U_F6_pre1.jar
+2020-06-30 00:53:48,714 Thread-31 > [00:53:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+2020-06-30 00:53:49,860 Thread-31 > 2020-06-30 00:53:49,859 main ERROR Error processing element Queue ([Appenders: null]): CLASS_NOT_FOUND
+2020-06-30 00:53:49,891 Thread-31 > 2020-06-30 00:53:49,890 main ERROR Unable to locate appender "ServerGuiConsole" for logger config "root"
+2020-06-30 00:53:50,758 Thread-31 > [00:53:50] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+2020-06-30 00:53:50,835 Thread-31 > [00:53:50] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+2020-06-30 00:53:50,839 Thread-31 > [00:53:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+2020-06-30 00:53:50,842 Thread-31 > [00:53:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+2020-06-30 00:53:50,867 Thread-31 > [00:53:50] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Parsing hooks container gloomyfolken.hooklib.minecraft.SecondaryTransformerHook
+2020-06-30 00:53:50,873 Thread-31 > [00:53:50] [main/INFO] [FML]: [HOOKLIB]  Obfuscated: true
+2020-06-30 00:53:50,904 Thread-31 > [00:53:50] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Parsing hooks container org.tlauncher.skin.cape.asm.TLSkinCapeHooks
+2020-06-30 00:53:50,909 Thread-31 > [00:53:50] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+2020-06-30 00:53:50,928 Thread-31 > [00:53:50] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+2020-06-30 00:53:50,938 Thread-31 > [00:53:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+2020-06-30 00:53:50,962 Thread-31 > [00:53:50] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraftforge.fml.common.Loader
+2020-06-30 00:53:51,014 Thread-31 > [00:53:51] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraftforge.fml.common.Loader#injectData([Ljava/lang/Object;)
+2020-06-30 00:53:51,101 Thread-31 > [00:53:51] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Methods dictionary loaded in 6 ms
+2020-06-30 00:53:51,256 Thread-31 > [00:53:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+2020-06-30 00:53:51,258 Thread-31 > [00:53:51] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+2020-06-30 00:53:51,260 Thread-31 > [00:53:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+2020-06-30 00:53:51,262 Thread-31 > [00:53:51] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+2020-06-30 00:53:51,264 Thread-31 > [00:53:51] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+2020-06-30 00:53:51,529 Thread-31 > [00:53:51] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+2020-06-30 00:53:51,789 Thread-31 > [00:53:51] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.entity.player.EntityPlayer
+2020-06-30 00:53:51,821 Thread-31 > [00:53:51] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.entity.player.EntityPlayer#isWearing(Lnet/minecraft/entity/player/EnumPlayerModelParts;)
+2020-06-30 00:53:51,891 Thread-31 > [00:53:51] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.client.entity.AbstractClientPlayer
+2020-06-30 00:53:51,895 Thread-31 > [00:53:51] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getLocationSkin()Lnet/minecraft/util/ResourceLocation;
+2020-06-30 00:53:51,898 Thread-31 > [00:53:51] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getLocationCape()Lnet/minecraft/util/ResourceLocation;
+2020-06-30 00:53:51,901 Thread-31 > [00:53:51] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getSkinType()
+2020-06-30 00:53:52,311 Thread-31 > [00:53:52] [Client thread/INFO] [minecraft/Minecraft]: Setting user: alexagapov2000
+2020-06-30 00:53:55,507 Thread-31 > [00:53:55] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Forge ***
+2020-06-30 00:53:55,509 Thread-31 > [00:53:55] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+2020-06-30 00:53:56,425 Thread-31 > [00:53:56] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Vanilla ***
+2020-06-30 00:53:56,612 Thread-31 > [00:53:56] [Client thread/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+2020-06-30 00:53:56,627 Thread-31 > [00:53:56] [Client thread/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
+2020-06-30 00:53:56,940 Thread-31 > [00:53:56] [Client thread/INFO] [Config]: [OptiFine] 
+2020-06-30 00:53:56,941 Thread-31 > [00:53:56] [Client thread/INFO] [Config]: [OptiFine] OptiFine_1.12.2_HD_U_F6_pre1
+2020-06-30 00:53:56,943 Thread-31 > [00:53:56] [Client thread/INFO] [Config]: [OptiFine] Build: 20191206-224929
+2020-06-30 00:53:56,944 Thread-31 > [00:53:56] [Client thread/INFO] [Config]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+2020-06-30 00:53:56,946 Thread-31 > [00:53:56] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_251, Oracle Corporation
+2020-06-30 00:53:56,948 Thread-31 > [00:53:56] [Client thread/INFO] [Config]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+2020-06-30 00:53:56,950 Thread-31 > [00:53:56] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.4
+2020-06-30 00:53:56,951 Thread-31 > [00:53:56] [Client thread/INFO] [Config]: [OptiFine] OpenGL: Intel(R) HD Graphics 630, version 4.6.0 - Build 26.20.100.7262, Intel
+2020-06-30 00:53:56,953 Thread-31 > [00:53:56] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.0
+2020-06-30 00:53:56,954 Thread-31 > [00:53:56] [Client thread/INFO] [Config]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+2020-06-30 00:53:56,980 Thread-31 > [00:53:56] [Client thread/INFO] [Config]: [OptiFine] Maximum texture size: 8192x8192
+2020-06-30 00:53:56,984 Thread-31 > [00:53:56] [VersionCheck/INFO] [Config]: [OptiFine] Checking for new version
+2020-06-30 00:53:57,103 Thread-31 > [00:53:57] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] OpenGL Version: 4.6.0 - Build 26.20.100.7262
+2020-06-30 00:53:57,105 Thread-31 > [00:53:57] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Vendor:  Intel
+2020-06-30 00:53:57,107 Thread-31 > [00:53:57] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Renderer: Intel(R) HD Graphics 630
+2020-06-30 00:53:57,109 Thread-31 > [00:53:57] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+2020-06-30 00:53:57,112 Thread-31 > [00:53:57] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+2020-06-30 00:53:57,114 Thread-31 > [00:53:57] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+2020-06-30 00:53:57,116 Thread-31 > [00:53:57] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+2020-06-30 00:53:57,118 Thread-31 > [00:53:57] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Load shaders configuration.
+2020-06-30 00:53:57,120 Thread-31 > [00:53:57] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] No shaderpack loaded.
+2020-06-30 00:53:57,131 Thread-31 > [00:53:57] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+2020-06-30 00:53:57,134 Thread-31 > [00:53:57] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+2020-06-30 00:53:57,136 Thread-31 > [00:53:57] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+2020-06-30 00:53:57,382 Thread-31 > [00:53:57] [VersionCheck/INFO] [Config]: [OptiFine] Version found: D3
+2020-06-30 00:53:57,417 Thread-31 > [00:53:57] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_F6_pre1, enabling compatibility features
+2020-06-30 00:53:57,436 Thread-31 > [00:53:57] [Client thread/INFO] [FML]: -- System Details --
+2020-06-30 00:53:57,437 Thread-31 > Details:
+2020-06-30 00:53:57,437 Thread-31 > 	Minecraft Version: 1.12.2
+2020-06-30 00:53:57,439 Thread-31 > 	Operating System: Windows 10 (amd64) version 10.0
+2020-06-30 00:53:57,442 Thread-31 > 	Java Version: 1.8.0_251, Oracle Corporation
+2020-06-30 00:53:57,443 Thread-31 > 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+2020-06-30 00:53:57,444 Thread-31 > 	Memory: 133285384 bytes (127 MB) / 335544320 bytes (320 MB) up to 4294967296 bytes (4096 MB)
+2020-06-30 00:53:57,446 Thread-31 > 	JVM Flags: 8 total; -Xmn128M -Xmx4096M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+2020-06-30 00:53:57,449 Thread-31 > 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+2020-06-30 00:53:57,450 Thread-31 > 	FML: 
+2020-06-30 00:53:57,450 Thread-31 > 	Loaded coremods (and transformers): 
+2020-06-30 00:53:57,451 Thread-31 > TLSkinCapeHookLoader (tlskincape1.12.2-1.4.jar)
+2020-06-30 00:53:57,452 Thread-31 >   gloomyfolken.hooklib.minecraft.PrimaryClassTransformer
+2020-06-30 00:53:57,453 Thread-31 > 	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 26.20.100.7262' Renderer: 'Intel(R) HD Graphics 630'
+2020-06-30 00:53:57,491 Thread-31 > [00:53:57] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+2020-06-30 00:53:57,526 Thread-31 > [00:53:57] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+2020-06-30 00:53:57,594 Thread-31 > [00:53:57] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+2020-06-30 00:53:57,724 Thread-31 > [00:53:57] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+2020-06-30 00:53:57,973 Thread-31 > [00:53:57] [Client thread/INFO] [FML]: Searching C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods for mods
+2020-06-30 00:53:59,066 Thread-31 > [00:53:59] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+2020-06-30 00:53:59,463 Thread-31 > [00:53:59] [Client thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+2020-06-30 00:53:59,544 Thread-31 > [00:53:59] [Client thread/INFO] [FML]: Forge Mod Loader has identified 27 mods to load
+2020-06-30 00:53:59,787 Thread-31 > [00:53:59] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 90518400 nanos
+2020-06-30 00:54:00,036 Thread-31 > [00:54:00] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, voxelmap, bspkrscore, treecapitator, autopickup, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, codechickenlib, eleccoreloader, eleccore, fastleafdecay, huds, ic2, ironchest, jei, nei, tlauncher_custom_cape_skin] at CLIENT
+2020-06-30 00:54:00,053 Thread-31 > [00:54:00] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, voxelmap, bspkrscore, treecapitator, autopickup, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, codechickenlib, eleccoreloader, eleccore, fastleafdecay, huds, ic2, ironchest, jei, nei, tlauncher_custom_cape_skin] at SERVER
+2020-06-30 00:54:02,208 Thread-31 > [00:54:02] [Client thread/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:VoxelMap, FMLFileResourcePack:bspkrsCore, FMLFileResourcePack:TreeCapitator, FMLFileResourcePack:AutoPickup, FMLFileResourcePack:BuildCraft Compat, FMLFileResourcePack:BuildCraft Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BuildCraft Energy, FMLFileResourcePack:BuildCraft Factory, FMLFileResourcePack:BuildCraft Lib, FMLFileResourcePack:BuildCraft Robotics, FMLFileResourcePack:BuildCraft Silicon, FMLFileResourcePack:BuildCraft Transport, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:ElecCoreLoader, FMLFileResourcePack:ElecCore, FMLFileResourcePack:Fast Leaf Decay, FMLFileResourcePack:huds, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TLSkinCape
+2020-06-30 00:54:02,370 Thread-31 > [00:54:02] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+2020-06-30 00:54:02,409 Thread-31 > [00:54:02] [Client thread/INFO] [FML]: Found 1265 ObjectHolder annotations
+2020-06-30 00:54:02,412 Thread-31 > [00:54:02] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+2020-06-30 00:54:02,413 Thread-31 > [00:54:02] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+2020-06-30 00:54:02,492 Thread-31 > [00:54:02] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+2020-06-30 00:54:02,497 Thread-31 > [00:54:02] [Forge Version Check/INFO] [forge.VersionCheck]: [autopickup] Starting version check at https://raw.githubusercontent.com/Furgl/AutoPickup/1.12/update.json
+2020-06-30 00:54:02,570 Thread-31 > [00:54:02] [Client thread/INFO] [treecapitator]: Proceeding to load tree/mod configs from file.
+2020-06-30 00:54:02,589 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]: 
+2020-06-30 00:54:02,591 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]: Starting BuildCraft 7.99.24.6
+2020-06-30 00:54:02,594 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2018
+2020-06-30 00:54:02,595 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+2020-06-30 00:54:02,596 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]: Detailed Build Information:
+2020-06-30 00:54:02,598 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:   Branch HEAD
+2020-06-30 00:54:02,598 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:   Commit 28b89ad8936f9d6c1ad00a7491453f68fc683232
+2020-06-30 00:54:02,601 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:     Update Localisation, changelog and version for 7.99.24.6
+2020-06-30 00:54:02,605 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:     committed by AlexIIL
+2020-06-30 00:54:02,606 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]: 
+2020-06-30 00:54:02,606 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]: Loaded Modules:
+2020-06-30 00:54:02,607 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:   - lib
+2020-06-30 00:54:02,608 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:   - core
+2020-06-30 00:54:02,609 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:   - builders
+2020-06-30 00:54:02,610 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:   - energy
+2020-06-30 00:54:02,611 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:   - factory
+2020-06-30 00:54:02,612 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:   - robotics
+2020-06-30 00:54:02,613 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:   - silicon
+2020-06-30 00:54:02,614 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:   - transport
+2020-06-30 00:54:02,615 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]:   - compat
+2020-06-30 00:54:02,616 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]: Missing Modules:
+2020-06-30 00:54:02,618 Thread-31 > [00:54:02] [Client thread/INFO] [BuildCraft]: 
+2020-06-30 00:54:03,096 Thread-31 > [00:54:03] [Client thread/INFO] [BuildCraft]: [debugger] Not a dev environment!
+2020-06-30 00:54:03,280 Thread-31 > [00:54:03] [Client thread/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.block.state.BlockStateContainer$Builder, but received non-empty
+2020-06-30 00:54:03,298 Thread-31 > [00:54:03] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+2020-06-30 00:54:03,924 Thread-31 > [00:54:03] [Forge Version Check/INFO] [forge.VersionCheck]: [autopickup] Found status: BETA Target: null
+2020-06-30 00:54:03,928 Thread-31 > [00:54:03] [Forge Version Check/INFO] [forge.VersionCheck]: [fastleafdecay] Starting version check at http://www.olafkeijsers.net/fastleafdecay-update.json
+2020-06-30 00:54:04,136 Thread-31 > [00:54:04] [Forge Version Check/INFO] [forge.VersionCheck]: [fastleafdecay] Found status: UP_TO_DATE Target: null
+2020-06-30 00:54:04,142 Thread-31 > [00:54:04] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Starting version check at https://mod-buildcraft.com/version/versions.json
+2020-06-30 00:54:04,384 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]: 
+2020-06-30 00:54:04,384 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]: Starting BuildCraftCompat 7.99.24.6
+2020-06-30 00:54:04,386 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2017
+2020-06-30 00:54:04,387 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+2020-06-30 00:54:04,388 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]: Detailed Build Information:
+2020-06-30 00:54:04,389 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]:   Branch 8.0.x-1.12.2
+2020-06-30 00:54:04,391 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]:   Commit 3ce2fe3c5d1a541dcc0db3285bdb840e44615cde
+2020-06-30 00:54:04,392 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]:     Update BC for 7.99.24.6
+2020-06-30 00:54:04,393 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]:     committed by AlexIIL
+2020-06-30 00:54:04,394 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]: 
+2020-06-30 00:54:04,395 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]: [compat] Module list:
+2020-06-30 00:54:04,396 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]: [compat]   x forestry (It cannot load)
+2020-06-30 00:54:04,397 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]: [compat]   x theoneprobe (It cannot load)
+2020-06-30 00:54:04,399 Thread-31 > [00:54:04] [Client thread/INFO] [BuildCraft]: [compat]   x crafttweaker (It cannot load)
+2020-06-30 00:54:04,471 Thread-31 > [00:54:04] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Found status: AHEAD Target: null
+2020-06-30 00:54:04,473 Thread-31 > [00:54:04] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Starting version check at https://mod-buildcraft.com/version/versions-compat.json
+2020-06-30 00:54:04,548 Thread-31 > [00:54:04] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Found status: AHEAD Target: null
+2020-06-30 00:54:04,550 Thread-31 > [00:54:04] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=NotEnoughItems
+2020-06-30 00:54:05,047 Thread-31 > [00:54:05] [Client thread/INFO] [ElecCore]: ElecCore has Pre-initialized in 3 ms
+2020-06-30 00:54:05,053 Thread-31 > [00:54:05] [Client thread/INFO] [Huds]: PreInitializing...
+2020-06-30 00:54:05,181 Thread-31 > [00:54:05] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Found status: BETA Target: null
+2020-06-30 00:54:05,183 Thread-31 > [00:54:05] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+2020-06-30 00:54:05,483 Thread-31 > [00:54:05] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+2020-06-30 00:54:05,485 Thread-31 > [00:54:05] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Starting version check at https://mod-buildcraft.com/version/versions.json
+2020-06-30 00:54:05,562 Thread-31 > [00:54:05] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Found status: AHEAD Target: null
+2020-06-30 00:54:05,564 Thread-31 > [00:54:05] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+2020-06-30 00:54:05,838 Thread-31 > [00:54:05] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+2020-06-30 00:54:14,573 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 354 out of 354 recipes for shaped recipes
+2020-06-30 00:54:14,587 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
+2020-06-30 00:54:14,610 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
+2020-06-30 00:54:14,619 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
+2020-06-30 00:54:14,623 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+2020-06-30 00:54:14,626 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
+2020-06-30 00:54:14,632 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
+2020-06-30 00:54:14,635 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for extractor recipes
+2020-06-30 00:54:14,639 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 89 out of 89 recipes for macerator recipes
+2020-06-30 00:54:14,641 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
+2020-06-30 00:54:14,643 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
+2020-06-30 00:54:14,645 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+2020-06-30 00:54:14,647 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+2020-06-30 00:54:14,649 Thread-31 > [00:54:14] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
+2020-06-30 00:54:15,028 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Item]: The item tritium_fuel_rod is not initialized.
+2020-06-30 00:54:15,061 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Item]: The item plasma_launcher is not initialized.
+2020-06-30 00:54:15,073 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Item]: The item item_pipe is not initialized.
+2020-06-30 00:54:15,076 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Item]: The item extractor_cover is not initialized.
+2020-06-30 00:54:15,078 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Item]: The item ingot2 is not initialized.
+2020-06-30 00:54:15,080 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Item]: The item test_pick is not initialized.
+2020-06-30 00:54:15,084 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Block]: The fluid deuterium is not initialized.
+2020-06-30 00:54:15,086 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Block]: The fluid molten_brass is not initialized.
+2020-06-30 00:54:15,088 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Block]: The fluid molten_bronze is not initialized.
+2020-06-30 00:54:15,089 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Block]: The fluid molten_copper is not initialized.
+2020-06-30 00:54:15,091 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Block]: The fluid molten_gold is not initialized.
+2020-06-30 00:54:15,092 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Block]: The fluid molten_iron is not initialized.
+2020-06-30 00:54:15,093 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Block]: The fluid molten_lead is not initialized.
+2020-06-30 00:54:15,095 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Block]: The fluid molten_silver is not initialized.
+2020-06-30 00:54:15,096 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Block]: The fluid molten_steel is not initialized.
+2020-06-30 00:54:15,097 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Block]: The fluid molten_tin is not initialized.
+2020-06-30 00:54:15,099 Thread-31 > [00:54:15] [Client thread/WARN] [ic2.Block]: The fluid molten_zinc is not initialized.
+2020-06-30 00:54:15,485 Thread-31 > [00:54:15] [Client thread/ERROR] [ElecCore]: Mod: huds does not have a module controller!
+2020-06-30 00:54:15,490 Thread-31 > [00:54:15] [Client thread/INFO] [ElecCore]: Successfully registered module IC2Compat from mod huds
+2020-06-30 00:54:15,514 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,518 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,522 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,525 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,536 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,540 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,544 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,548 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,553 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,557 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,561 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,566 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,579 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,583 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,587 Thread-31 > [00:54:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+2020-06-30 00:54:15,591 Thread-31 > [00:54:15] [Client thread/INFO] [FML]: Applying holder lookups
+2020-06-30 00:54:15,592 Thread-31 > [00:54:15] [Client thread/INFO] [FML]: Holder lookups applied
+2020-06-30 00:54:15,593 Thread-31 > [00:54:15] [Client thread/INFO] [FML]: Applying holder lookups
+2020-06-30 00:54:15,594 Thread-31 > [00:54:15] [Client thread/INFO] [FML]: Holder lookups applied
+2020-06-30 00:54:15,595 Thread-31 > [00:54:15] [Client thread/INFO] [FML]: Applying holder lookups
+2020-06-30 00:54:15,596 Thread-31 > [00:54:15] [Client thread/INFO] [FML]: Holder lookups applied
+2020-06-30 00:54:15,599 Thread-31 > [00:54:15] [Client thread/INFO] [ElecCore]: Registering models
+2020-06-30 00:54:15,682 Thread-31 > [00:54:15] [Client thread/INFO] [ElecCore]: Prehandling Block Models
+2020-06-30 00:54:15,691 Thread-31 > [00:54:15] [Client thread/INFO] [ElecCore]: Prehandling Item Models
+2020-06-30 00:54:15,693 Thread-31 > [00:54:15] [Client thread/INFO] [FML]: Applying holder lookups
+2020-06-30 00:54:15,694 Thread-31 > [00:54:15] [Client thread/INFO] [FML]: Holder lookups applied
+2020-06-30 00:54:15,695 Thread-31 > [00:54:15] [Client thread/INFO] [FML]: Injecting itemstacks
+2020-06-30 00:54:15,697 Thread-31 > [00:54:15] [Client thread/INFO] [FML]: Itemstack injection complete
+2020-06-30 00:54:15,701 Thread-31 > [00:54:15] [Client thread/INFO] [Config]: [OptiFine] *** Reloading textures ***
+2020-06-30 00:54:15,704 Thread-31 > [00:54:15] [Client thread/INFO] [Config]: [OptiFine] Resource packs: Default
+2020-06-30 00:54:16,265 Thread-31 > [00:54:16] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
+2020-06-30 00:54:16,499 Thread-31 > [00:54:16] [Thread-5/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
+2020-06-30 00:54:16,508 Thread-31 > [00:54:16] [Thread-5/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+2020-06-30 00:54:17,781 Thread-31 > [00:54:17] [Thread-5/INFO] [minecraft/SoundManager]: OpenAL initialized.
+2020-06-30 00:54:17,784 Thread-31 > [00:54:17] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
+2020-06-30 00:54:19,305 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] Mipmap levels: 4
+2020-06-30 00:54:19,360 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] Multitexture: false
+2020-06-30 00:54:19,382 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+2020-06-30 00:54:19,415 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+2020-06-30 00:54:19,420 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+2020-06-30 00:54:19,426 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+2020-06-30 00:54:19,434 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+2020-06-30 00:54:19,440 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+2020-06-30 00:54:19,447 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+2020-06-30 00:54:19,456 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+2020-06-30 00:54:19,462 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+2020-06-30 00:54:19,469 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+2020-06-30 00:54:19,475 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+2020-06-30 00:54:19,481 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+2020-06-30 00:54:19,487 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+2020-06-30 00:54:19,493 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+2020-06-30 00:54:19,500 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+2020-06-30 00:54:19,508 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+2020-06-30 00:54:19,519 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+2020-06-30 00:54:19,521 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+2020-06-30 00:54:19,527 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+2020-06-30 00:54:19,537 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+2020-06-30 00:54:19,545 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+2020-06-30 00:54:19,555 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+2020-06-30 00:54:19,561 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+2020-06-30 00:54:19,570 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+2020-06-30 00:54:19,577 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+2020-06-30 00:54:19,582 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+2020-06-30 00:54:19,590 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+2020-06-30 00:54:19,596 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+2020-06-30 00:54:19,602 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+2020-06-30 00:54:19,608 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+2020-06-30 00:54:19,615 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+2020-06-30 00:54:19,620 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+2020-06-30 00:54:19,642 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+2020-06-30 00:54:19,644 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+2020-06-30 00:54:19,648 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+2020-06-30 00:54:19,654 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+2020-06-30 00:54:19,656 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] Multipass connected textures: false
+2020-06-30 00:54:19,659 Thread-31 > [00:54:19] [Client thread/INFO] [Config]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+2020-06-30 00:54:22,288 Thread-31 > [00:54:22] [Client thread/INFO] [Config]: [OptiFine] Custom loader sprites: 457
+2020-06-30 00:54:22,290 Thread-31 > [00:54:22] [Client thread/INFO] [Config]: [OptiFine] Sprite dependencies: 5
+2020-06-30 00:54:22,468 Thread-31 > [00:54:22] [Client thread/INFO] [minecraft/TextureMap]: Created: 2048x1024 textures-atlas
+2020-06-30 00:54:30,424 Thread-31 > [00:54:30] [Client thread/INFO] [Config]: [OptiFine] Animated sprites: 455
+2020-06-30 00:54:31,394 Thread-31 > [00:54:31] [Client thread/INFO] [ElecCore]: Cleaning up internal Json stuff...
+2020-06-30 00:54:31,396 Thread-31 > [00:54:31] [Client thread/INFO] [ElecCore]: Handling models
+2020-06-30 00:54:31,397 Thread-31 > [00:54:31] [Client thread/INFO] [ElecCore]: Finished cleaning up internal Json stuff.
+2020-06-30 00:54:32,878 Thread-31 > [00:54:32] [Client thread/INFO] [FML]: Applying holder lookups
+2020-06-30 00:54:32,881 Thread-31 > [00:54:32] [Client thread/INFO] [FML]: Holder lookups applied
+2020-06-30 00:54:32,892 Thread-31 > [00:54:32] [Client thread/INFO] [bspkrscore]: Initializing ModVersionChecker for mod bspkrscore
+2020-06-30 00:54:33,096 Thread-31 > [00:54:33] [Client thread/WARN] [bspkrscore]: Error retrieving remote string value at URL http://bspk.rs/Minecraft/1.12/bspkrsCore.version! Defaulting to check_error
+2020-06-30 00:54:33,128 Thread-31 > [00:54:33] [Client thread/INFO] [bspkrscore]: Initializing ModVersionChecker for mod TreeCapitator
+2020-06-30 00:54:33,297 Thread-31 > [00:54:33] [Client thread/WARN] [bspkrscore]: Error retrieving remote string value at URL http://bspk.rs/Minecraft/1.12/TreeCapitator.version! Defaulting to check_error
+2020-06-30 00:54:33,682 Thread-31 > [00:54:33] [Client thread/INFO] [ElecCore]: ElecCore has Initialized in 21 ms
+2020-06-30 00:54:34,231 Thread-31 > [00:54:34] [Client thread/INFO] [jei]: Created: 128x256 textures-atlas
+2020-06-30 00:54:34,297 Thread-31 > [00:54:34] [Client thread/INFO] [FML]: Injecting itemstacks
+2020-06-30 00:54:34,299 Thread-31 > [00:54:34] [Client thread/INFO] [FML]: Itemstack injection complete
+2020-06-30 00:54:35,348 Thread-31 > [00:54:35] [Client thread/INFO] [STDOUT]: [com.mamiyaotaru.voxelmap.Map:<init>:420]: CATEGORY ORDER IS 7
+2020-06-30 00:54:35,434 Thread-31 > [00:54:35] [Client thread/INFO] [com.mamiyaotaru.voxelmap.textures.TextureAtlas]: Created: 256x256 waypoints-atlas
+2020-06-30 00:54:35,530 Thread-31 > [00:54:35] [Client thread/INFO] [com.mamiyaotaru.voxelmap.textures.TextureAtlas]: Created: 256x128 chooser-atlas
+2020-06-30 00:54:35,733 Thread-31 > [00:54:35] [Client thread/INFO] [com.mamiyaotaru.voxelmap.textures.TextureAtlas]: Created: 512x256 mobs-atlas
+2020-06-30 00:54:35,836 Thread-31 > [00:54:35] [Client thread/INFO] [com.mamiyaotaru.voxelmap.textures.TextureAtlas]: Created: 64x64 pings-atlas
+2020-06-30 00:54:35,856 Thread-31 > [00:54:35] [Client thread/INFO] [treecapitator]: Prioritizing User and IMC mod configs...
+2020-06-30 00:54:35,858 Thread-31 > [00:54:35] [Client thread/INFO] [treecapitator]: Registering items and trees...
+2020-06-30 00:54:35,863 Thread-31 > [00:54:35] [Client thread/INFO] [treecapitator]: Skipping Ore Dictionary processing.
+2020-06-30 00:54:36,326 Thread-31 > [00:54:36] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftcore:item/volume_box' (full path = 'buildcraftcore:compat/buildcraft/guide/en_us/item/volume_box.md') because we couldn't find any of the valid paths in any resource pack!
+2020-06-30 00:54:36,339 Thread-31 > [00:54:36] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftsilicon:item/plug_facade' (full path = 'buildcraftsilicon:compat/buildcraft/guide/en_us/item/plug_facade.md') because we couldn't find any of the valid paths in any resource pack!
+2020-06-30 00:54:36,366 Thread-31 > [00:54:36] [Client thread/WARN] [BuildCraft]: [lib.guide.loader.xml] Unknown recipe type null - must be one of [crafting, assembling, smelting]
+2020-06-30 00:54:36,393 Thread-31 > [00:54:36] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftcore:item/marker_volume' (full path = 'buildcraftcore:compat/buildcraft/guide/en_us/item/marker_volume.md') because we couldn't find any of the valid paths in any resource pack!
+2020-06-30 00:54:36,399 Thread-31 > [00:54:36] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftfactory:block/autoworkbench_item' (full path = 'buildcraftfactory:compat/buildcraft/guide/en_us/block/autoworkbench_item.md') because we couldn't find any of the valid paths in any resource pack!
+2020-06-30 00:54:36,403 Thread-31 > [00:54:36] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftcore:block/engine_creative' (full path = 'buildcraftcore:compat/buildcraft/guide/en_us/block/engine_creative.md') because we couldn't find any of the valid paths in any resource pack!
+2020-06-30 00:54:36,536 Thread-31 > [00:54:36] [Client thread/INFO] [BuildCraft]: [lib.guide] Squished buildcraftsilicon:plug_facade and all of it's 881 variants down into one page entry.
+2020-06-30 00:54:36,539 Thread-31 > [00:54:36] [Client thread/INFO] [BuildCraft]: [lib.search] Max suffix length is 27
+2020-06-30 00:54:36,550 Thread-31 > [00:54:36] [Client thread/INFO] [BuildCraft]: [lib.search]   'tile.decorated.destroy.name'
+2020-06-30 00:54:36,552 Thread-31 > [00:54:36] [Client thread/INFO] [BuildCraft]: [lib.search]   'tile.decorated.leather.name'
+2020-06-30 00:54:36,584 Thread-31 > [00:54:36] [Client thread/WARN] [BuildCraft]: [lib.gui.cfg] Failed to read the config file! C:\Games\Minecraft\repos\.minecraft\versions\industrial\config\buildcraft\gui.json
+2020-06-30 00:54:36,678 Thread-31 > [00:54:36] [Client thread/INFO] [ElecCore]: ElecCore has Post-initialized in 4 ms
+2020-06-30 00:54:36,746 Thread-31 > [00:54:36] [Client thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+2020-06-30 00:54:36,882 Thread-31 > [00:54:36] [Client thread/INFO] [ic2.General]: ic2 version 2.8.220-ex112 loaded.
+2020-06-30 00:54:37,505 Thread-31 > [00:54:37] [Client thread/INFO] [ElecCore]: ElecCore has Available in 0 ms
+2020-06-30 00:54:37,508 Thread-31 > [00:54:37] [Client thread/INFO] [jei]: Starting JEI...
+2020-06-30 00:54:37,730 Thread-31 > [00:54:37] [Client thread/INFO] [jei]: Registering recipe categories...
+2020-06-30 00:54:37,759 Thread-31 > [00:54:37] [Client thread/INFO] [BuildCraft]: Loaded JEI mods: [factory, energy, silicon]
+2020-06-30 00:54:37,766 Thread-31 > [00:54:37] [Client thread/INFO] [jei]: Registering recipe categories took 30.66 ms
+2020-06-30 00:54:37,768 Thread-31 > [00:54:37] [Client thread/INFO] [jei]: Registering mod plugins...
+2020-06-30 00:54:38,365 Thread-31 > [00:54:38] [Client thread/INFO] [jei]: Registering mod plugins took 598.9 ms
+2020-06-30 00:54:38,367 Thread-31 > [00:54:38] [Client thread/INFO] [jei]: Building recipe registry...
+2020-06-30 00:54:38,535 Thread-31 > [00:54:38] [Client thread/INFO] [jei]: Building recipe registry took 170.8 ms
+2020-06-30 00:54:38,537 Thread-31 > [00:54:38] [Client thread/INFO] [jei]: Building ingredient list...
+2020-06-30 00:54:38,585 Thread-31 > [00:54:38] [Client thread/INFO] [jei]: Building ingredient list took 48.87 ms
+2020-06-30 00:54:38,586 Thread-31 > [00:54:38] [Client thread/INFO] [jei]: Building ingredient filter...
+2020-06-30 00:54:38,851 Thread-31 > [00:54:38] [Client thread/INFO] [jei]: Building ingredient filter took 265.5 ms
+2020-06-30 00:54:38,854 Thread-31 > [00:54:38] [Client thread/INFO] [jei]: Building bookmarks...
+2020-06-30 00:54:38,855 Thread-31 > [00:54:38] [Client thread/INFO] [jei]: Building bookmarks took 3.987 ms
+2020-06-30 00:54:38,857 Thread-31 > [00:54:38] [Client thread/INFO] [jei]: Building runtime...
+2020-06-30 00:54:38,930 Thread-31 > [00:54:38] [Client thread/INFO] [jei]: Building runtime took 75.41 ms
+2020-06-30 00:54:38,946 Thread-31 > [00:54:38] [Client thread/INFO] [jei]: Optimizing memory usage...
+2020-06-30 00:54:39,020 Thread-31 > [00:54:39] [Client thread/INFO] [jei]: Optimizing memory usage took 73.54 ms
+2020-06-30 00:54:39,037 Thread-31 > [00:54:39] [Client thread/INFO] [jei]: Starting JEI took 1.527 s
+2020-06-30 00:54:39,040 Thread-31 > [00:54:39] [Client thread/INFO] [NotEnoughItems]: Loading NEI.
+2020-06-30 00:54:39,269 Thread-31 > [00:54:39] [Client thread/INFO] [NotEnoughItems]: Finished NEI Initialization after 233 ms
+2020-06-30 00:54:39,722 Thread-31 > [00:54:39] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 27 mods
+2020-06-30 00:54:39,757 Thread-31 > [00:54:39] [Client thread/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+2020-06-30 00:54:40,034 Thread-31 > [00:54:40] [Client thread/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
+2020-06-30 00:54:40,799 Thread-31 > [00:54:40] [Realms Notification Availability checker #1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: Invalid session id
+2020-06-30 00:54:42,764 Thread-31 > [00:54:42] [Client thread/INFO] [Config]: [OptiFine] *** Reloading custom textures ***
+2020-06-30 00:54:50,132 Thread-31 > [00:54:50] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.12.2
+2020-06-30 00:54:50,134 Thread-31 > [00:54:50] [Server thread/INFO] [minecraft/IntegratedServer]: Generating keypair
+2020-06-30 00:54:50,258 Thread-31 > [00:54:50] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+2020-06-30 00:54:50,856 Thread-31 > [00:54:50] [Server thread/INFO] [FML]: Applying holder lookups
+2020-06-30 00:54:50,857 Thread-31 > [00:54:50] [Server thread/INFO] [FML]: Holder lookups applied
+2020-06-30 00:54:51,021 Thread-31 > [00:54:51] [Server thread/INFO] [FML]: Loading dimension 0 (mirok) (net.minecraft.server.integrated.IntegratedServer@1147fda6)
+2020-06-30 00:54:51,657 Thread-31 > [00:54:51] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 537 advancements
+2020-06-30 00:54:51,742 Thread-31 > [00:54:51] [Server thread/INFO] [FML]: Loading dimension -1 (mirok) (net.minecraft.server.integrated.IntegratedServer@1147fda6)
+2020-06-30 00:54:51,782 Thread-31 > [00:54:51] [Server thread/INFO] [FML]: Loading dimension 1 (mirok) (net.minecraft.server.integrated.IntegratedServer@1147fda6)
+2020-06-30 00:54:51,787 Thread-31 > [00:54:51] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for level 0
+2020-06-30 00:54:52,839 Thread-31 > [00:54:52] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing spawn area: 2%
+2020-06-30 00:54:53,934 Thread-31 > [00:54:53] [Server thread/INFO] [FML]: Unloading dimension -1
+2020-06-30 00:54:53,958 Thread-31 > [00:54:53] [Server thread/INFO] [FML]: Unloading dimension 1
+2020-06-30 00:54:53,966 Thread-31 > [00:54:53] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 16, from 10
+2020-06-30 00:54:55,536 Thread-31 > [00:54:55] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+2020-06-30 00:54:55,538 Thread-31 > [00:54:55] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+2020-06-30 00:54:55,544 Thread-31 > [00:54:55] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 27 mods : minecraft@1.12.2,buildcraftlib@7.99.24.6,bspkrscore@7.6.0.1,buildcraftsilicon@7.99.24.6,buildcraftenergy@7.99.24.6,jei@4.15.0.296,buildcrafttransport@7.99.24.6,nei@2.4.3,eleccore@1.9.453,ic2@2.8.220-ex112,buildcraftbuilders@7.99.24.6,mcp@9.42,treecapitator@1.43.0,buildcraftfactory@7.99.24.6,autopickup@2.5.1,FML@8.0.99.99,eleccoreloader@1.9.453,buildcraftcompat@7.99.24.6,huds@#VERSION#,tlauncher_custom_cape_skin@1.4,voxelmap@1.9.21,forge@14.23.5.2854,codechickenlib@3.2.3.358,fastleafdecay@v14,buildcraftcore@7.99.24.6,buildcraftrobotics@7.99.24.6,ironchest@1.12.2-7.0.67.844
+2020-06-30 00:54:55,571 Thread-31 > [00:54:55] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+2020-06-30 00:54:55,573 Thread-31 > [00:54:55] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+2020-06-30 00:54:55,582 Thread-31 > [00:54:55] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+2020-06-30 00:54:55,591 Thread-31 > [00:54:55] [Server thread/INFO] [minecraft/PlayerList]: alexagapov2000[local:E:167316ad] logged in with entity id 26 at (-1457.8246856479764, 70.0, 539.1774261035636)
+2020-06-30 00:54:55,595 Thread-31 > [00:54:55] [Server thread/INFO] [minecraft/MinecraftServer]: alexagapov2000 joined the game
+2020-06-30 00:54:57,116 Thread-31 > [00:54:57] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+2020-06-30 00:54:57,153 Thread-31 > [00:54:57] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'mirok'/overworld
+2020-06-30 00:54:57,249 Thread-31 > [00:54:57] [Client thread/INFO] [org.tlauncher.skin.cape.renderer.TextureManager]: textures alexagapov2000 was added, skin: true,cape: false, max waiting: 8 ,during : 19731 
+2020-06-30 00:54:57,954 Thread-31 > [00:54:57] [Client thread/INFO] [minecraft/AdvancementList]: Loaded 302 advancements
+2020-06-30 00:54:58,119 Thread-31 > [00:54:58] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] �ENo waypoints exist for this world/server.
+2020-06-30 00:55:11,002 Thread-31 > [00:55:10] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+2020-06-30 00:55:11,012 Thread-31 > [00:55:11] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'mirok'/overworld
+2020-06-30 00:55:13,356 Thread-31 > [00:55:13] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+2020-06-30 00:55:13,384 Thread-31 > [00:55:13] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'mirok'/overworld
+2020-06-30 00:55:45,344 Thread-31 > [00:55:45] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+2020-06-30 00:55:45,367 Thread-31 > [00:55:45] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'mirok'/overworld
+2020-06-30 00:56:03,955 Thread-31 > [00:56:03] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+2020-06-30 00:56:03,998 Thread-31 > [00:56:03] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'mirok'/overworld
+2020-06-30 00:56:35,870 Thread-31 > [00:56:35] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
+2020-06-30 00:56:35,880 Thread-31 > java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
+2020-06-30 00:56:35,884 Thread-31 > 	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
+2020-06-30 00:56:35,885 Thread-31 > 	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
+2020-06-30 00:56:35,921 Thread-31 > 	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
+2020-06-30 00:56:35,923 Thread-31 > 	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
+2020-06-30 00:56:35,925 Thread-31 > 	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
+2020-06-30 00:56:35,926 Thread-31 > 	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
+2020-06-30 00:56:35,948 Thread-31 > 	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
+2020-06-30 00:56:35,951 Thread-31 > 	at codechicken.nei.LayoutManager.load(LayoutManager.java:600) ~[LayoutManager.class:?]
+2020-06-30 00:56:35,952 Thread-31 > 	at codechicken.nei.handler.NEIClientEventHandler.lambda$containerInitEvent$5(NEIClientEventHandler.java:220) ~[NEIClientEventHandler.class:?]
+2020-06-30 00:56:35,955 Thread-31 > 	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_251]
+2020-06-30 00:56:35,956 Thread-31 > 	at codechicken.nei.handler.NEIClientEventHandler.containerInitEvent(NEIClientEventHandler.java:220) [NEIClientEventHandler.class:?]
+2020-06-30 00:56:35,958 Thread-31 > 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_160_NEIClientEventHandler_containerInitEvent_Pre.invoke(.dynamic) [?:?]
+2020-06-30 00:56:35,960 Thread-31 > 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+2020-06-30 00:56:35,962 Thread-31 > 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+2020-06-30 00:56:35,965 Thread-31 > 	at net.minecraft.client.gui.GuiScreen.func_146280_a(GuiScreen.java:475) [blk.class:?]
+2020-06-30 00:56:35,988 Thread-31 > 	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:1018) [bib.class:?]
+2020-06-30 00:56:35,990 Thread-31 > 	at net.minecraft.client.Minecraft.func_184117_aA(Minecraft.java:2175) [bib.class:?]
+2020-06-30 00:56:35,991 Thread-31 > 	at net.minecraft.client.Minecraft.func_184118_az(Minecraft.java:2020) [bib.class:?]
+2020-06-30 00:56:35,993 Thread-31 > 	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1808) [bib.class:?]
+2020-06-30 00:56:35,994 Thread-31 > 	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1098) [bib.class:?]
+2020-06-30 00:56:35,996 Thread-31 > 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398) [bib.class:?]
+2020-06-30 00:56:35,999 Thread-31 > 	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+2020-06-30 00:56:36,001 Thread-31 > 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+2020-06-30 00:56:36,003 Thread-31 > 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+2020-06-30 00:56:36,005 Thread-31 > 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
+2020-06-30 00:56:36,007 Thread-31 > 	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
+2020-06-30 00:56:36,008 Thread-31 > 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+2020-06-30 00:56:36,010 Thread-31 > 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+2020-06-30 00:56:36,012 Thread-31 > [00:56:35] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
+2020-06-30 00:56:36,014 Thread-31 > java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
+2020-06-30 00:56:36,025 Thread-31 > 	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
+2020-06-30 00:56:36,036 Thread-31 > 	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
+2020-06-30 00:56:36,039 Thread-31 > 	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
+2020-06-30 00:56:36,041 Thread-31 > 	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
+2020-06-30 00:56:36,052 Thread-31 > 	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
+2020-06-30 00:56:36,053 Thread-31 > 	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
+2020-06-30 00:56:36,056 Thread-31 > 	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
+2020-06-30 00:56:36,060 Thread-31 > 	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:213) ~[LayoutManager.class:?]
+2020-06-30 00:56:36,063 Thread-31 > 	at codechicken.nei.handler.NEIClientEventHandler.lambda$foregroundRenderEvent$8(NEIClientEventHandler.java:286) ~[NEIClientEventHandler.class:?]
+2020-06-30 00:56:36,066 Thread-31 > 	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_251]
+2020-06-30 00:56:36,067 Thread-31 > 	at codechicken.nei.handler.NEIClientEventHandler.foregroundRenderEvent(NEIClientEventHandler.java:286) [NEIClientEventHandler.class:?]
+2020-06-30 00:56:36,070 Thread-31 > 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_161_NEIClientEventHandler_foregroundRenderEvent_DrawForeground.invoke(.dynamic) [?:?]
+2020-06-30 00:56:36,072 Thread-31 > 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+2020-06-30 00:56:36,075 Thread-31 > 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+2020-06-30 00:56:36,078 Thread-31 > 	at net.minecraft.client.gui.inventory.GuiContainer.func_73863_a(GuiContainer.java:119) [bmg.class:?]
+2020-06-30 00:56:36,093 Thread-31 > 	at net.minecraft.client.renderer.InventoryEffectRenderer.func_73863_a(InventoryEffectRenderer.java:51) [bmr.class:?]
+2020-06-30 00:56:36,119 Thread-31 > 	at net.minecraft.client.gui.inventory.GuiInventory.func_73863_a(SourceFile:75) [bmx.class:?]
+2020-06-30 00:56:36,121 Thread-31 > 	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:396) [ForgeHooksClient.class:?]
+2020-06-30 00:56:36,132 Thread-31 > 	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[?:?]
+2020-06-30 00:56:36,133 Thread-31 > 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.
