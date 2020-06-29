@@ -1,88 +1,88 @@
-[01:36:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[01:36:48] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[01:36:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[01:36:49] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
-[01:36:49] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_251
-[01:36:49] [main/INFO] [FML]: Searching C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods for mods
-[01:36:49] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from forgemod_VoxelMap-1.9.21_for_1.12.2.jar
-[01:36:49] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from preview_OptiFine_1.12.2_HD_U_F6_pre1.jar
-[01:36:49] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in tlskincape1.12.2-1.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[01:36:49] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:36:49] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[01:36:49] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Games/Minecraft/repos/.minecraft/versions/industrial/mods/forgemod_VoxelMap-1.9.21_for_1.12.2.jar Service=LaunchWrapper Env=CLIENT
-[01:36:49] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
-[01:36:49] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[01:36:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:36:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:36:49] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
-[01:36:49] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
-[01:36:49] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
-[01:36:49] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
-[01:36:49] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\preview_OptiFine_1.12.2_HD_U_F6_pre1.jar
-[01:36:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:36:52] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[01:36:52] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
-[01:36:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:36:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:36:52] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Parsing hooks container gloomyfolken.hooklib.minecraft.SecondaryTransformerHook
-[01:36:52] [main/INFO] [FML]: [HOOKLIB]  Obfuscated: true
-[01:36:52] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Parsing hooks container org.tlauncher.skin.cape.asm.TLSkinCapeHooks
-[01:36:52] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[01:36:52] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[01:36:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[01:36:52] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraftforge.fml.common.Loader
-[01:36:52] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraftforge.fml.common.Loader#injectData([Ljava/lang/Object;)
-[01:36:52] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Methods dictionary loaded in 6 ms
-[01:36:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[01:36:52] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[01:36:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[01:36:52] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[01:36:52] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
-[01:36:53] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[01:36:53] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.entity.player.EntityPlayer
-[01:36:53] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.entity.player.EntityPlayer#isWearing(Lnet/minecraft/entity/player/EnumPlayerModelParts;)
-[01:36:53] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.client.entity.AbstractClientPlayer
-[01:36:53] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getLocationSkin()Lnet/minecraft/util/ResourceLocation;
-[01:36:53] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getLocationCape()Lnet/minecraft/util/ResourceLocation;
-[01:36:53] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getSkinType()
-[01:36:53] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: alexagapov2000
-[01:36:58] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Forge ***
-[01:36:58] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Vanilla ***
-[01:37:00] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[01:37:00] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] 
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] OptiFine_1.12.2_HD_U_F6_pre1
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] Build: 20191206-224929
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] OS: Windows 10 (amd64) version 10.0
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_251, Oracle Corporation
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.4
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] OpenGL: Intel(R) HD Graphics 630, version 4.6.0 - Build 26.20.100.7262, Intel
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.0
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] Maximum texture size: 8192x8192
-[01:37:00] [VersionCheck/INFO] [Config]: [OptiFine] Checking for new version
-[01:37:00] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] OpenGL Version: 4.6.0 - Build 26.20.100.7262
-[01:37:00] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Vendor:  Intel
-[01:37:00] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Renderer: Intel(R) HD Graphics 630
-[01:37:00] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
-[01:37:00] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
-[01:37:00] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
-[01:37:00] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
-[01:37:00] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Load shaders configuration.
-[01:37:00] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] No shaderpack loaded.
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
-[01:37:00] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
-[01:37:01] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_F6_pre1, enabling compatibility features
-[01:37:01] [Client thread/INFO] [FML]: -- System Details --
+[01:49:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:49:13] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:49:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:49:14] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[01:49:14] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_251
+[01:49:14] [main/INFO] [FML]: Searching C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods for mods
+[01:49:14] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from forgemod_VoxelMap-1.9.21_for_1.12.2.jar
+[01:49:14] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from preview_OptiFine_1.12.2_HD_U_F6_pre1.jar
+[01:49:14] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in tlskincape1.12.2-1.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[01:49:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:49:14] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[01:49:14] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Games/Minecraft/repos/.minecraft/versions/industrial/mods/forgemod_VoxelMap-1.9.21_for_1.12.2.jar Service=LaunchWrapper Env=CLIENT
+[01:49:14] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[01:49:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:49:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:49:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:49:14] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[01:49:14] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[01:49:14] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[01:49:14] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[01:49:14] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods\preview_OptiFine_1.12.2_HD_U_F6_pre1.jar
+[01:49:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:49:17] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[01:49:17] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[01:49:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:49:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:49:17] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Parsing hooks container gloomyfolken.hooklib.minecraft.SecondaryTransformerHook
+[01:49:17] [main/INFO] [FML]: [HOOKLIB]  Obfuscated: true
+[01:49:17] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Parsing hooks container org.tlauncher.skin.cape.asm.TLSkinCapeHooks
+[01:49:17] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[01:49:17] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[01:49:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:49:17] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraftforge.fml.common.Loader
+[01:49:17] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraftforge.fml.common.Loader#injectData([Ljava/lang/Object;)
+[01:49:17] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Methods dictionary loaded in 4 ms
+[01:49:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:49:17] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[01:49:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:49:17] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[01:49:17] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[01:49:18] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[01:49:18] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.client.entity.AbstractClientPlayer
+[01:49:18] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getLocationSkin()Lnet/minecraft/util/ResourceLocation;
+[01:49:18] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getLocationCape()Lnet/minecraft/util/ResourceLocation;
+[01:49:18] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getSkinType()
+[01:49:18] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.entity.player.EntityPlayer
+[01:49:18] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.entity.player.EntityPlayer#isWearing(Lnet/minecraft/entity/player/EnumPlayerModelParts;)
+[01:49:19] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: alexagapov2000
+[01:49:23] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Forge ***
+[01:49:23] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[01:49:24] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Vanilla ***
+[01:49:24] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[01:49:24] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] 
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] OptiFine_1.12.2_HD_U_F6_pre1
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] Build: 20191206-224929
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_251, Oracle Corporation
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.4
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] OpenGL: Intel(R) HD Graphics 630, version 4.6.0 - Build 26.20.100.7262, Intel
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.0
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] Maximum texture size: 8192x8192
+[01:49:25] [VersionCheck/INFO] [Config]: [OptiFine] Checking for new version
+[01:49:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] OpenGL Version: 4.6.0 - Build 26.20.100.7262
+[01:49:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Vendor:  Intel
+[01:49:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Renderer: Intel(R) HD Graphics 630
+[01:49:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[01:49:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[01:49:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[01:49:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[01:49:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Load shaders configuration.
+[01:49:25] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] No shaderpack loaded.
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[01:49:25] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[01:49:25] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_F6_pre1, enabling compatibility features
+[01:49:25] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_251, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 47403640 bytes (45 MB) / 335544320 bytes (320 MB) up to 4294967296 bytes (4096 MB)
+	Memory: 158068224 bytes (150 MB) / 335544320 bytes (320 MB) up to 4294967296 bytes (4096 MB)
 	JVM Flags: 8 total; -Xmn128M -Xmx4096M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
@@ -90,374 +90,302 @@ Details:
 TLSkinCapeHookLoader (tlskincape1.12.2-1.4.jar)
   gloomyfolken.hooklib.minecraft.PrimaryClassTransformer
 	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 26.20.100.7262' Renderer: 'Intel(R) HD Graphics 630'
-[01:37:01] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
-[01:37:01] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[01:37:01] [VersionCheck/INFO] [Config]: [OptiFine] Version found: D3
-[01:37:01] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[01:37:01] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[01:37:01] [Client thread/INFO] [FML]: Searching C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods for mods
-[01:37:03] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
-[01:37:03] [Client thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
-[01:37:03] [Client thread/INFO] [FML]: Forge Mod Loader has identified 27 mods to load
-[01:37:03] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 99564600 nanos
-[01:37:04] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, voxelmap, bspkrscore, treecapitator, autopickup, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, codechickenlib, eleccoreloader, eleccore, fastleafdecay, huds, ic2, ironchest, jei, nei, tlauncher_custom_cape_skin] at CLIENT
-[01:37:04] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, voxelmap, bspkrscore, treecapitator, autopickup, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, codechickenlib, eleccoreloader, eleccore, fastleafdecay, huds, ic2, ironchest, jei, nei, tlauncher_custom_cape_skin] at SERVER
-[01:37:06] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:VoxelMap, FMLFileResourcePack:bspkrsCore, FMLFileResourcePack:TreeCapitator, FMLFileResourcePack:AutoPickup, FMLFileResourcePack:BuildCraft Compat, FMLFileResourcePack:BuildCraft Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BuildCraft Energy, FMLFileResourcePack:BuildCraft Factory, FMLFileResourcePack:BuildCraft Lib, FMLFileResourcePack:BuildCraft Robotics, FMLFileResourcePack:BuildCraft Silicon, FMLFileResourcePack:BuildCraft Transport, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:ElecCoreLoader, FMLFileResourcePack:ElecCore, FMLFileResourcePack:Fast Leaf Decay, FMLFileResourcePack:huds, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TLSkinCape
-[01:37:06] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[01:37:06] [Client thread/INFO] [FML]: Found 1265 ObjectHolder annotations
-[01:37:06] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[01:37:06] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[01:37:06] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[01:37:06] [Forge Version Check/INFO] [forge.VersionCheck]: [autopickup] Starting version check at https://raw.githubusercontent.com/Furgl/AutoPickup/1.12/update.json
-[01:37:06] [Client thread/INFO] [treecapitator]: Proceeding to load tree/mod configs from file.
-[01:37:06] [Client thread/INFO] [BuildCraft]: 
-[01:37:06] [Client thread/INFO] [BuildCraft]: Starting BuildCraft 7.99.24.6
-[01:37:06] [Client thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2018
-[01:37:06] [Client thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
-[01:37:06] [Client thread/INFO] [BuildCraft]: Detailed Build Information:
-[01:37:06] [Client thread/INFO] [BuildCraft]:   Branch HEAD
-[01:37:06] [Client thread/INFO] [BuildCraft]:   Commit 28b89ad8936f9d6c1ad00a7491453f68fc683232
-[01:37:06] [Client thread/INFO] [BuildCraft]:     Update Localisation, changelog and version for 7.99.24.6
-[01:37:06] [Client thread/INFO] [BuildCraft]:     committed by AlexIIL
-[01:37:06] [Client thread/INFO] [BuildCraft]: 
-[01:37:06] [Client thread/INFO] [BuildCraft]: Loaded Modules:
-[01:37:06] [Client thread/INFO] [BuildCraft]:   - lib
-[01:37:06] [Client thread/INFO] [BuildCraft]:   - core
-[01:37:06] [Client thread/INFO] [BuildCraft]:   - builders
-[01:37:06] [Client thread/INFO] [BuildCraft]:   - energy
-[01:37:06] [Client thread/INFO] [BuildCraft]:   - factory
-[01:37:06] [Client thread/INFO] [BuildCraft]:   - robotics
-[01:37:06] [Client thread/INFO] [BuildCraft]:   - silicon
-[01:37:06] [Client thread/INFO] [BuildCraft]:   - transport
-[01:37:06] [Client thread/INFO] [BuildCraft]:   - compat
-[01:37:06] [Client thread/INFO] [BuildCraft]: Missing Modules:
-[01:37:06] [Client thread/INFO] [BuildCraft]: 
-[01:37:07] [Client thread/INFO] [BuildCraft]: [debugger] Not a dev environment!
-[01:37:07] [Client thread/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.block.state.BlockStateContainer$Builder, but received non-empty
-[01:37:07] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[01:37:08] [Forge Version Check/INFO] [forge.VersionCheck]: [autopickup] Found status: BETA Target: null
-[01:37:08] [Forge Version Check/INFO] [forge.VersionCheck]: [fastleafdecay] Starting version check at http://www.olafkeijsers.net/fastleafdecay-update.json
-[01:37:08] [Forge Version Check/INFO] [forge.VersionCheck]: [fastleafdecay] Found status: UP_TO_DATE Target: null
-[01:37:08] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Starting version check at https://mod-buildcraft.com/version/versions.json
-[01:37:08] [Client thread/INFO] [BuildCraft]: 
-[01:37:08] [Client thread/INFO] [BuildCraft]: Starting BuildCraftCompat 7.99.24.6
-[01:37:08] [Client thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2017
-[01:37:08] [Client thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
-[01:37:08] [Client thread/INFO] [BuildCraft]: Detailed Build Information:
-[01:37:08] [Client thread/INFO] [BuildCraft]:   Branch 8.0.x-1.12.2
-[01:37:08] [Client thread/INFO] [BuildCraft]:   Commit 3ce2fe3c5d1a541dcc0db3285bdb840e44615cde
-[01:37:08] [Client thread/INFO] [BuildCraft]:     Update BC for 7.99.24.6
-[01:37:08] [Client thread/INFO] [BuildCraft]:     committed by AlexIIL
-[01:37:08] [Client thread/INFO] [BuildCraft]: 
-[01:37:08] [Client thread/INFO] [BuildCraft]: [compat] Module list:
-[01:37:08] [Client thread/INFO] [BuildCraft]: [compat]   x forestry (It cannot load)
-[01:37:08] [Client thread/INFO] [BuildCraft]: [compat]   x theoneprobe (It cannot load)
-[01:37:08] [Client thread/INFO] [BuildCraft]: [compat]   x crafttweaker (It cannot load)
-[01:37:08] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Found status: AHEAD Target: null
-[01:37:08] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Starting version check at https://mod-buildcraft.com/version/versions-compat.json
-[01:37:08] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Found status: AHEAD Target: null
-[01:37:08] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=NotEnoughItems
-[01:37:09] [Client thread/INFO] [ElecCore]: ElecCore has Pre-initialized in 10 ms
-[01:37:09] [Client thread/INFO] [Huds]: PreInitializing...
-[01:37:09] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Found status: BETA Target: null
-[01:37:09] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
-[01:37:09] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
-[01:37:09] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Starting version check at https://mod-buildcraft.com/version/versions.json
-[01:37:09] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Found status: AHEAD Target: null
-[01:37:09] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[01:37:10] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 354 out of 354 recipes for shaped recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for extractor recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 89 out of 89 recipes for macerator recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
-[01:37:20] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
-[01:37:20] [Client thread/WARN] [ic2.Item]: The item tritium_fuel_rod is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Item]: The item plasma_launcher is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Item]: The item item_pipe is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Item]: The item extractor_cover is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Item]: The item ingot2 is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Item]: The item test_pick is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Block]: The fluid deuterium is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Block]: The fluid molten_brass is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Block]: The fluid molten_bronze is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Block]: The fluid molten_copper is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Block]: The fluid molten_gold is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Block]: The fluid molten_iron is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Block]: The fluid molten_lead is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Block]: The fluid molten_silver is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Block]: The fluid molten_steel is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Block]: The fluid molten_tin is not initialized.
-[01:37:20] [Client thread/WARN] [ic2.Block]: The fluid molten_zinc is not initialized.
-[01:37:21] [Client thread/ERROR] [ElecCore]: Mod: huds does not have a module controller!
-[01:37:21] [Client thread/INFO] [ElecCore]: Successfully registered module IC2Compat from mod huds
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:37:21] [Client thread/INFO] [FML]: Applying holder lookups
-[01:37:21] [Client thread/INFO] [FML]: Holder lookups applied
-[01:37:21] [Client thread/INFO] [FML]: Applying holder lookups
-[01:37:21] [Client thread/INFO] [FML]: Holder lookups applied
-[01:37:21] [Client thread/INFO] [FML]: Applying holder lookups
-[01:37:21] [Client thread/INFO] [FML]: Holder lookups applied
-[01:37:21] [Client thread/INFO] [ElecCore]: Registering models
-[01:37:21] [Client thread/INFO] [ElecCore]: Prehandling Block Models
-[01:37:21] [Client thread/INFO] [ElecCore]: Prehandling Item Models
-[01:37:21] [Client thread/INFO] [FML]: Applying holder lookups
-[01:37:21] [Client thread/INFO] [FML]: Holder lookups applied
-[01:37:21] [Client thread/INFO] [FML]: Injecting itemstacks
-[01:37:21] [Client thread/INFO] [FML]: Itemstack injection complete
-[01:37:21] [Client thread/INFO] [Config]: [OptiFine] *** Reloading textures ***
-[01:37:21] [Client thread/INFO] [Config]: [OptiFine] Resource packs: Default
-[01:37:27] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[01:37:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[01:37:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[01:37:27] [Thread-5/ERROR] [net.minecraft.client.audio.SoundManager]: Error in class 'LibraryLWJGLOpenAL'
-[01:37:27] [Thread-5/ERROR] [net.minecraft.client.audio.SoundManager]: Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
-[01:37:27] [Thread-5/WARN] [net.minecraft.client.audio.SoundManager]: ERROR MESSAGE:
-[01:37:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Could not locate OpenAL library.
-[01:37:27] [Thread-5/WARN] [net.minecraft.client.audio.SoundManager]: STACK TRACE:
-[01:37:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: org.lwjgl.openal.AL.create(AL.java:156)
-[01:37:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: org.lwjgl.openal.AL.create(AL.java:102)
-[01:37:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: org.lwjgl.openal.AL.create(AL.java:206)
-[01:37:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
-[01:37:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
-[01:37:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
-[01:37:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: paulscode.sound.CommandThread.run(CommandThread.java:121)
-[01:37:28] [Sound Library Loader/WARN] [net.minecraft.client.audio.SoundManager]: ERROR MESSAGE:
-[01:37:28] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Could not locate OpenAL library.
-[01:37:28] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[01:37:28] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: Switching to No Sound
-[01:37:28] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: (Silent Mode)
-[01:37:28] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[01:37:30] [Client thread/INFO] [Config]: [OptiFine] Mipmap levels: 4
-[01:37:30] [Client thread/INFO] [Config]: [OptiFine] Multitexture: false
-[01:37:30] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] Multipass connected textures: false
-[01:37:31] [Client thread/INFO] [Config]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
-[01:37:33] [Client thread/INFO] [Config]: [OptiFine] Custom loader sprites: 457
-[01:37:33] [Client thread/INFO] [Config]: [OptiFine] Sprite dependencies: 5
-[01:37:34] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 2048x1024 textures-atlas
-[01:37:42] [Client thread/INFO] [Config]: [OptiFine] Animated sprites: 455
-[01:37:43] [Client thread/INFO] [ElecCore]: Cleaning up internal Json stuff...
-[01:37:43] [Client thread/INFO] [ElecCore]: Handling models
-[01:37:43] [Client thread/INFO] [ElecCore]: Finished cleaning up internal Json stuff.
-[01:37:45] [Client thread/INFO] [FML]: Applying holder lookups
-[01:37:45] [Client thread/INFO] [FML]: Holder lookups applied
-[01:37:45] [Client thread/INFO] [bspkrscore]: Initializing ModVersionChecker for mod bspkrscore
-[01:37:45] [Client thread/WARN] [bspkrscore]: Error retrieving remote string value at URL http://bspk.rs/Minecraft/1.12/bspkrsCore.version! Defaulting to check_error
-[01:37:45] [Client thread/INFO] [bspkrscore]: Initializing ModVersionChecker for mod TreeCapitator
-[01:37:45] [Client thread/WARN] [bspkrscore]: Error retrieving remote string value at URL http://bspk.rs/Minecraft/1.12/TreeCapitator.version! Defaulting to check_error
-[01:37:46] [Client thread/INFO] [ElecCore]: ElecCore has Initialized in 22 ms
-[01:37:46] [Client thread/INFO] [jei]: Created: 128x256 textures-atlas
-[01:37:46] [Client thread/INFO] [FML]: Injecting itemstacks
-[01:37:46] [Client thread/INFO] [FML]: Itemstack injection complete
-[01:37:47] [Client thread/INFO] [STDOUT]: [com.mamiyaotaru.voxelmap.Map:<init>:420]: CATEGORY ORDER IS 7
-[01:37:47] [Client thread/INFO] [com.mamiyaotaru.voxelmap.textures.TextureAtlas]: Created: 256x256 waypoints-atlas
-[01:37:48] [Client thread/INFO] [com.mamiyaotaru.voxelmap.textures.TextureAtlas]: Created: 256x128 chooser-atlas
-[01:37:48] [Client thread/INFO] [com.mamiyaotaru.voxelmap.textures.TextureAtlas]: Created: 512x256 mobs-atlas
-[01:37:48] [Client thread/INFO] [com.mamiyaotaru.voxelmap.textures.TextureAtlas]: Created: 64x64 pings-atlas
-[01:37:48] [Client thread/INFO] [treecapitator]: Prioritizing User and IMC mod configs...
-[01:37:48] [Client thread/INFO] [treecapitator]: Registering items and trees...
-[01:37:48] [Client thread/INFO] [treecapitator]: Skipping Ore Dictionary processing.
-[01:37:48] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftcore:item/volume_box' (full path = 'buildcraftcore:compat/buildcraft/guide/en_us/item/volume_box.md') because we couldn't find any of the valid paths in any resource pack!
-[01:37:48] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftsilicon:item/plug_facade' (full path = 'buildcraftsilicon:compat/buildcraft/guide/en_us/item/plug_facade.md') because we couldn't find any of the valid paths in any resource pack!
-[01:37:48] [Client thread/WARN] [BuildCraft]: [lib.guide.loader.xml] Unknown recipe type null - must be one of [crafting, assembling, smelting]
-[01:37:49] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftcore:item/marker_volume' (full path = 'buildcraftcore:compat/buildcraft/guide/en_us/item/marker_volume.md') because we couldn't find any of the valid paths in any resource pack!
-[01:37:49] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftfactory:block/autoworkbench_item' (full path = 'buildcraftfactory:compat/buildcraft/guide/en_us/block/autoworkbench_item.md') because we couldn't find any of the valid paths in any resource pack!
-[01:37:49] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftcore:block/engine_creative' (full path = 'buildcraftcore:compat/buildcraft/guide/en_us/block/engine_creative.md') because we couldn't find any of the valid paths in any resource pack!
-[01:37:49] [Client thread/INFO] [BuildCraft]: [lib.guide] Squished buildcraftsilicon:plug_facade and all of it's 881 variants down into one page entry.
-[01:37:49] [Client thread/INFO] [BuildCraft]: [lib.search] Max suffix length is 27
-[01:37:49] [Client thread/INFO] [BuildCraft]: [lib.search]   'tile.decorated.destroy.name'
-[01:37:49] [Client thread/INFO] [BuildCraft]: [lib.search]   'tile.decorated.leather.name'
-[01:37:49] [Client thread/WARN] [BuildCraft]: [lib.gui.cfg] Failed to read the config file! C:\Games\Minecraft\repos\.minecraft\versions\industrial\config\buildcraft\gui.json
-[01:37:49] [Client thread/INFO] [ElecCore]: ElecCore has Post-initialized in 5 ms
-[01:37:49] [Client thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
-[01:37:49] [Client thread/INFO] [ic2.General]: ic2 version 2.8.220-ex112 loaded.
-[01:37:50] [Client thread/INFO] [ElecCore]: ElecCore has Available in 0 ms
-[01:37:50] [Client thread/INFO] [jei]: Starting JEI...
-[01:37:50] [Client thread/INFO] [jei]: Registering recipe categories...
-[01:37:50] [Client thread/INFO] [BuildCraft]: Loaded JEI mods: [factory, energy, silicon]
-[01:37:50] [Client thread/INFO] [jei]: Registering recipe categories took 36.99 ms
-[01:37:50] [Client thread/INFO] [jei]: Registering mod plugins...
-[01:37:51] [Client thread/INFO] [jei]: Registering mod plugins took 617.7 ms
-[01:37:51] [Client thread/INFO] [jei]: Building recipe registry...
-[01:37:51] [Client thread/INFO] [jei]: Building recipe registry took 172.7 ms
-[01:37:51] [Client thread/INFO] [jei]: Building ingredient list...
-[01:37:51] [Client thread/INFO] [jei]: Building ingredient list took 51.22 ms
-[01:37:51] [Client thread/INFO] [jei]: Building ingredient filter...
-[01:37:51] [Client thread/INFO] [jei]: Building ingredient filter took 262.8 ms
-[01:37:51] [Client thread/INFO] [jei]: Building bookmarks...
-[01:37:51] [Client thread/INFO] [jei]: Building bookmarks took 4.333 ms
-[01:37:51] [Client thread/INFO] [jei]: Building runtime...
-[01:37:51] [Client thread/INFO] [jei]: Building runtime took 72.33 ms
-[01:37:51] [Client thread/INFO] [jei]: Optimizing memory usage...
-[01:37:51] [Client thread/INFO] [jei]: Optimizing memory usage took 73.78 ms
-[01:37:51] [Client thread/INFO] [jei]: Starting JEI took 1.606 s
-[01:37:51] [Client thread/INFO] [NotEnoughItems]: Loading NEI.
-[01:37:51] [Client thread/INFO] [NotEnoughItems]: Finished NEI Initialization after 233 ms
-[01:37:52] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 27 mods
-[01:37:52] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[01:37:52] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[01:37:53] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[01:37:55] [Client thread/INFO] [Config]: [OptiFine] *** Reloading custom textures ***
-[01:38:02] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[01:38:02] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[01:38:02] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[01:38:03] [Server thread/INFO] [FML]: Applying holder lookups
-[01:38:03] [Server thread/INFO] [FML]: Holder lookups applied
-[01:38:03] [Server thread/INFO] [FML]: Loading dimension 0 (mirok) (net.minecraft.server.integrated.IntegratedServer@13b2be94)
-[01:38:03] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 537 advancements
-[01:38:03] [Server thread/INFO] [FML]: Loading dimension -1 (mirok) (net.minecraft.server.integrated.IntegratedServer@13b2be94)
-[01:38:04] [Server thread/INFO] [FML]: Loading dimension 1 (mirok) (net.minecraft.server.integrated.IntegratedServer@13b2be94)
-[01:38:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[01:38:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 2%
-[01:38:06] [Server thread/INFO] [FML]: Unloading dimension -1
-[01:38:06] [Server thread/INFO] [FML]: Unloading dimension 1
-[01:38:06] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 16, from 10
-[01:38:07] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[01:38:07] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[01:38:07] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 27 mods : minecraft@1.12.2,buildcraftlib@7.99.24.6,bspkrscore@7.6.0.1,buildcraftsilicon@7.99.24.6,buildcraftenergy@7.99.24.6,jei@4.15.0.296,buildcrafttransport@7.99.24.6,nei@2.4.3,eleccore@1.9.453,ic2@2.8.220-ex112,buildcraftbuilders@7.99.24.6,mcp@9.42,treecapitator@1.43.0,buildcraftfactory@7.99.24.6,autopickup@2.5.1,FML@8.0.99.99,eleccoreloader@1.9.453,buildcraftcompat@7.99.24.6,huds@#VERSION#,tlauncher_custom_cape_skin@1.4,voxelmap@1.9.21,forge@14.23.5.2854,codechickenlib@3.2.3.358,fastleafdecay@v14,buildcraftcore@7.99.24.6,buildcraftrobotics@7.99.24.6,ironchest@1.12.2-7.0.67.844
-[01:38:07] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
-[01:38:07] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[01:38:07] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[01:38:07] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: alexagapov2000[local:E:a3732861] logged in with entity id 27 at (-1453.9144532886057, 70.0, 544.9053756563791)
-[01:38:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: alexagapov2000 joined the game
-[01:38:09] [Client thread/INFO] [org.tlauncher.skin.cape.renderer.TextureManager]: textures alexagapov2000 was added, skin: true,cape: false, max waiting: 47 ,during : 19020 
-[01:38:09] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:38:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
-[01:38:10] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 302 advancements
-[01:38:34] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:38:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
-[01:38:37] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:38:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
-[01:38:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:38:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
-[01:39:12] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.load(LayoutManager.java:600) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$containerInitEvent$5(NEIClientEventHandler.java:220) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) ~[?:1.8.0_251]
-	at codechicken.nei.handler.NEIClientEventHandler.containerInitEvent(NEIClientEventHandler.java:220) ~[NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_161_NEIClientEventHandler_containerInitEvent_Pre.invoke(.dynamic) ~[?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) ~[EventBus.class:?]
-	at net.minecraft.client.gui.GuiScreen.func_146280_a(GuiScreen.java:475) ~[blk.class:?]
-	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:1018) ~[bib.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.showGuiScreen(FMLClientHandler.java:501) ~[FMLClientHandler.class:?]
-	at net.minecraftforge.fml.common.FMLCommonHandler.showGuiScreen(FMLCommonHandler.java:322) ~[FMLCommonHandler.class:?]
-	at net.minecraftforge.fml.common.network.internal.FMLNetworkHandler.openGui(FMLNetworkHandler.java:112) ~[FMLNetworkHandler.class:?]
-	at net.minecraft.entity.player.EntityPlayer.openGui(EntityPlayer.java:2550) ~[aed.class:?]
-	at net.minecraftforge.fml.common.network.internal.OpenGuiHandler.process(OpenGuiHandler.java:50) ~[OpenGuiHandler.class:?]
-	at net.minecraftforge.fml.common.network.internal.OpenGuiHandler.lambda$channelRead0$0(OpenGuiHandler.java:43) ~[OpenGuiHandler.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_251]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_251]
-	at net.minecraft.util.Util.func_181617_a(Util.java:47) [h.class:?]
-	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1088) [bib.class:?]
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-[01:39:12] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:213) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$foregroundRenderEvent$8(NEIClientEventHandler.java:286) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_251]
-	at codechicken.nei.handler.NEIClientEventHandler.foregroundRenderEvent(NEIClientEventHandler.java:286) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_162_NEIClientEventHandler_foregroundRenderEvent_DrawForeground.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.func_73863_a(GuiContainer.java:119) [bmg.class:?]
-	at cpw.mods.ironchest.client.gui.chest.GUIChest.func_73863_a(GUIChest.java:100) [GUIChest.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:396) [ForgeHooksClient.class:?]
-	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
-	at net.optifine.reflect.Reflector.callVoid(Reflector.java:665) [Reflector.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1457) [buq.class:?]
-	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119) [bib.class:?]
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-[01:39:14] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
+[01:49:25] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[01:49:25] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[01:49:25] [VersionCheck/INFO] [Config]: [OptiFine] Version found: D3
+[01:49:25] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[01:49:25] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[01:49:26] [Client thread/INFO] [FML]: Searching C:\Games\Minecraft\repos\.minecraft\versions\industrial\mods for mods
+[01:49:27] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[01:49:27] [Client thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[01:49:27] [Client thread/INFO] [FML]: Forge Mod Loader has identified 27 mods to load
+[01:49:28] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 112280400 nanos
+[01:49:28] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, voxelmap, bspkrscore, treecapitator, autopickup, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, codechickenlib, eleccoreloader, eleccore, fastleafdecay, huds, ic2, ironchest, jei, nei, tlauncher_custom_cape_skin] at CLIENT
+[01:49:28] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, voxelmap, bspkrscore, treecapitator, autopickup, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, codechickenlib, eleccoreloader, eleccore, fastleafdecay, huds, ic2, ironchest, jei, nei, tlauncher_custom_cape_skin] at SERVER
+[01:49:30] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:VoxelMap, FMLFileResourcePack:bspkrsCore, FMLFileResourcePack:TreeCapitator, FMLFileResourcePack:AutoPickup, FMLFileResourcePack:BuildCraft Compat, FMLFileResourcePack:BuildCraft Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BuildCraft Energy, FMLFileResourcePack:BuildCraft Factory, FMLFileResourcePack:BuildCraft Lib, FMLFileResourcePack:BuildCraft Robotics, FMLFileResourcePack:BuildCraft Silicon, FMLFileResourcePack:BuildCraft Transport, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:ElecCoreLoader, FMLFileResourcePack:ElecCore, FMLFileResourcePack:Fast Leaf Decay, FMLFileResourcePack:huds, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TLSkinCape
+[01:49:30] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[01:49:31] [Client thread/INFO] [FML]: Found 1265 ObjectHolder annotations
+[01:49:31] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[01:49:31] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[01:49:31] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[01:49:31] [Forge Version Check/INFO] [forge.VersionCheck]: [autopickup] Starting version check at https://raw.githubusercontent.com/Furgl/AutoPickup/1.12/update.json
+[01:49:31] [Client thread/INFO] [treecapitator]: Proceeding to load tree/mod configs from file.
+[01:49:31] [Client thread/INFO] [BuildCraft]: 
+[01:49:31] [Client thread/INFO] [BuildCraft]: Starting BuildCraft 7.99.24.6
+[01:49:31] [Client thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2018
+[01:49:31] [Client thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[01:49:31] [Client thread/INFO] [BuildCraft]: Detailed Build Information:
+[01:49:31] [Client thread/INFO] [BuildCraft]:   Branch HEAD
+[01:49:31] [Client thread/INFO] [BuildCraft]:   Commit 28b89ad8936f9d6c1ad00a7491453f68fc683232
+[01:49:31] [Client thread/INFO] [BuildCraft]:     Update Localisation, changelog and version for 7.99.24.6
+[01:49:31] [Client thread/INFO] [BuildCraft]:     committed by AlexIIL
+[01:49:31] [Client thread/INFO] [BuildCraft]: 
+[01:49:31] [Client thread/INFO] [BuildCraft]: Loaded Modules:
+[01:49:31] [Client thread/INFO] [BuildCraft]:   - lib
+[01:49:31] [Client thread/INFO] [BuildCraft]:   - core
+[01:49:31] [Client thread/INFO] [BuildCraft]:   - builders
+[01:49:31] [Client thread/INFO] [BuildCraft]:   - energy
+[01:49:31] [Client thread/INFO] [BuildCraft]:   - factory
+[01:49:31] [Client thread/INFO] [BuildCraft]:   - robotics
+[01:49:31] [Client thread/INFO] [BuildCraft]:   - silicon
+[01:49:31] [Client thread/INFO] [BuildCraft]:   - transport
+[01:49:31] [Client thread/INFO] [BuildCraft]:   - compat
+[01:49:31] [Client thread/INFO] [BuildCraft]: Missing Modules:
+[01:49:31] [Client thread/INFO] [BuildCraft]: 
+[01:49:31] [Client thread/INFO] [BuildCraft]: [debugger] Not a dev environment!
+[01:49:31] [Client thread/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.block.state.BlockStateContainer$Builder, but received non-empty
+[01:49:31] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[01:49:32] [Forge Version Check/INFO] [forge.VersionCheck]: [autopickup] Found status: BETA Target: null
+[01:49:32] [Forge Version Check/INFO] [forge.VersionCheck]: [fastleafdecay] Starting version check at http://www.olafkeijsers.net/fastleafdecay-update.json
+[01:49:32] [Forge Version Check/INFO] [forge.VersionCheck]: [fastleafdecay] Found status: UP_TO_DATE Target: null
+[01:49:32] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Starting version check at https://mod-buildcraft.com/version/versions.json
+[01:49:32] [Client thread/INFO] [BuildCraft]: 
+[01:49:32] [Client thread/INFO] [BuildCraft]: Starting BuildCraftCompat 7.99.24.6
+[01:49:32] [Client thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2017
+[01:49:32] [Client thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[01:49:32] [Client thread/INFO] [BuildCraft]: Detailed Build Information:
+[01:49:32] [Client thread/INFO] [BuildCraft]:   Branch 8.0.x-1.12.2
+[01:49:32] [Client thread/INFO] [BuildCraft]:   Commit 3ce2fe3c5d1a541dcc0db3285bdb840e44615cde
+[01:49:32] [Client thread/INFO] [BuildCraft]:     Update BC for 7.99.24.6
+[01:49:32] [Client thread/INFO] [BuildCraft]:     committed by AlexIIL
+[01:49:32] [Client thread/INFO] [BuildCraft]: 
+[01:49:32] [Client thread/INFO] [BuildCraft]: [compat] Module list:
+[01:49:32] [Client thread/INFO] [BuildCraft]: [compat]   x forestry (It cannot load)
+[01:49:32] [Client thread/INFO] [BuildCraft]: [compat]   x theoneprobe (It cannot load)
+[01:49:32] [Client thread/INFO] [BuildCraft]: [compat]   x crafttweaker (It cannot load)
+[01:49:33] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Found status: AHEAD Target: null
+[01:49:33] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Starting version check at https://mod-buildcraft.com/version/versions-compat.json
+[01:49:33] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Found status: AHEAD Target: null
+[01:49:33] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=NotEnoughItems
+[01:49:33] [Client thread/INFO] [ElecCore]: ElecCore has Pre-initialized in 3 ms
+[01:49:33] [Client thread/INFO] [Huds]: PreInitializing...
+[01:49:33] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Found status: BETA Target: null
+[01:49:33] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[01:49:33] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[01:49:33] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Starting version check at https://mod-buildcraft.com/version/versions.json
+[01:49:34] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Found status: AHEAD Target: null
+[01:49:34] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01:49:34] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 354 out of 354 recipes for shaped recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for extractor recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 89 out of 89 recipes for macerator recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[01:49:44] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
+[01:49:44] [Client thread/WARN] [ic2.Item]: The item tritium_fuel_rod is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Item]: The item plasma_launcher is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Item]: The item item_pipe is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Item]: The item extractor_cover is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Item]: The item ingot2 is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Item]: The item test_pick is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Block]: The fluid deuterium is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Block]: The fluid molten_brass is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Block]: The fluid molten_bronze is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Block]: The fluid molten_copper is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Block]: The fluid molten_gold is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Block]: The fluid molten_iron is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Block]: The fluid molten_lead is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Block]: The fluid molten_silver is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Block]: The fluid molten_steel is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Block]: The fluid molten_tin is not initialized.
+[01:49:44] [Client thread/WARN] [ic2.Block]: The fluid molten_zinc is not initialized.
+[01:49:45] [Client thread/ERROR] [ElecCore]: Mod: huds does not have a module controller!
+[01:49:45] [Client thread/INFO] [ElecCore]: Successfully registered module IC2Compat from mod huds
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[01:49:45] [Client thread/INFO] [FML]: Applying holder lookups
+[01:49:45] [Client thread/INFO] [FML]: Holder lookups applied
+[01:49:45] [Client thread/INFO] [FML]: Applying holder lookups
+[01:49:45] [Client thread/INFO] [FML]: Holder lookups applied
+[01:49:45] [Client thread/INFO] [FML]: Applying holder lookups
+[01:49:45] [Client thread/INFO] [FML]: Holder lookups applied
+[01:49:45] [Client thread/INFO] [ElecCore]: Registering models
+[01:49:45] [Client thread/INFO] [ElecCore]: Prehandling Block Models
+[01:49:45] [Client thread/INFO] [ElecCore]: Prehandling Item Models
+[01:49:45] [Client thread/INFO] [FML]: Applying holder lookups
+[01:49:45] [Client thread/INFO] [FML]: Holder lookups applied
+[01:49:45] [Client thread/INFO] [FML]: Injecting itemstacks
+[01:49:45] [Client thread/INFO] [FML]: Itemstack injection complete
+[01:49:45] [Client thread/INFO] [Config]: [OptiFine] *** Reloading textures ***
+[01:49:45] [Client thread/INFO] [Config]: [OptiFine] Resource packs: Default
+[01:49:46] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[01:49:46] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[01:49:46] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:49:46] [Thread-5/ERROR] [net.minecraft.client.audio.SoundManager]: Error in class 'LibraryLWJGLOpenAL'
+[01:49:46] [Thread-5/ERROR] [net.minecraft.client.audio.SoundManager]: Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
+[01:49:46] [Thread-5/WARN] [net.minecraft.client.audio.SoundManager]: ERROR MESSAGE:
+[01:49:46] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Could not locate OpenAL library.
+[01:49:46] [Thread-5/WARN] [net.minecraft.client.audio.SoundManager]: STACK TRACE:
+[01:49:46] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: org.lwjgl.openal.AL.create(AL.java:156)
+[01:49:46] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: org.lwjgl.openal.AL.create(AL.java:102)
+[01:49:46] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: org.lwjgl.openal.AL.create(AL.java:206)
+[01:49:46] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[01:49:46] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[01:49:46] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[01:49:46] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: paulscode.sound.CommandThread.run(CommandThread.java:121)
+[01:49:46] [Sound Library Loader/WARN] [net.minecraft.client.audio.SoundManager]: ERROR MESSAGE:
+[01:49:46] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Could not locate OpenAL library.
+[01:49:46] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[01:49:46] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: Switching to No Sound
+[01:49:46] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: (Silent Mode)
+[01:49:47] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] Mipmap levels: 4
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] Multitexture: false
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] Multipass connected textures: false
+[01:49:49] [Client thread/INFO] [Config]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[01:49:52] [Client thread/INFO] [Config]: [OptiFine] Custom loader sprites: 457
+[01:49:52] [Client thread/INFO] [Config]: [OptiFine] Sprite dependencies: 5
+[01:49:52] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 2048x1024 textures-atlas
+[01:50:00] [Client thread/INFO] [Config]: [OptiFine] Animated sprites: 455
+[01:50:01] [Client thread/INFO] [ElecCore]: Cleaning up internal Json stuff...
+[01:50:01] [Client thread/INFO] [ElecCore]: Handling models
+[01:50:01] [Client thread/INFO] [ElecCore]: Finished cleaning up internal Json stuff.
+[01:50:03] [Client thread/INFO] [FML]: Applying holder lookups
+[01:50:03] [Client thread/INFO] [FML]: Holder lookups applied
+[01:50:03] [Client thread/INFO] [bspkrscore]: Initializing ModVersionChecker for mod bspkrscore
+[01:50:03] [Client thread/WARN] [bspkrscore]: Error retrieving remote string value at URL http://bspk.rs/Minecraft/1.12/bspkrsCore.version! Defaulting to check_error
+[01:50:03] [Client thread/INFO] [bspkrscore]: Initializing ModVersionChecker for mod TreeCapitator
+[01:50:03] [Client thread/WARN] [bspkrscore]: Error retrieving remote string value at URL http://bspk.rs/Minecraft/1.12/TreeCapitator.version! Defaulting to check_error
+[01:50:03] [Client thread/INFO] [ElecCore]: ElecCore has Initialized in 28 ms
+[01:50:04] [Client thread/INFO] [jei]: Created: 128x256 textures-atlas
+[01:50:04] [Client thread/INFO] [FML]: Injecting itemstacks
+[01:50:04] [Client thread/INFO] [FML]: Itemstack injection complete
+[01:50:05] [Client thread/INFO] [STDOUT]: [com.mamiyaotaru.voxelmap.Map:<init>:420]: CATEGORY ORDER IS 7
+[01:50:05] [Client thread/INFO] [com.mamiyaotaru.voxelmap.textures.TextureAtlas]: Created: 256x256 waypoints-atlas
+[01:50:06] [Client thread/INFO] [com.mamiyaotaru.voxelmap.textures.TextureAtlas]: Created: 256x128 chooser-atlas
+[01:50:06] [Client thread/INFO] [com.mamiyaotaru.voxelmap.textures.TextureAtlas]: Created: 512x256 mobs-atlas
+[01:50:06] [Client thread/INFO] [com.mamiyaotaru.voxelmap.textures.TextureAtlas]: Created: 64x64 pings-atlas
+[01:50:06] [Client thread/INFO] [treecapitator]: Prioritizing User and IMC mod configs...
+[01:50:06] [Client thread/INFO] [treecapitator]: Registering items and trees...
+[01:50:06] [Client thread/INFO] [treecapitator]: Skipping Ore Dictionary processing.
+[01:50:06] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftcore:item/volume_box' (full path = 'buildcraftcore:compat/buildcraft/guide/en_us/item/volume_box.md') because we couldn't find any of the valid paths in any resource pack!
+[01:50:06] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftsilicon:item/plug_facade' (full path = 'buildcraftsilicon:compat/buildcraft/guide/en_us/item/plug_facade.md') because we couldn't find any of the valid paths in any resource pack!
+[01:50:06] [Client thread/WARN] [BuildCraft]: [lib.guide.loader.xml] Unknown recipe type null - must be one of [crafting, assembling, smelting]
+[01:50:06] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftcore:item/marker_volume' (full path = 'buildcraftcore:compat/buildcraft/guide/en_us/item/marker_volume.md') because we couldn't find any of the valid paths in any resource pack!
+[01:50:06] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftfactory:block/autoworkbench_item' (full path = 'buildcraftfactory:compat/buildcraft/guide/en_us/block/autoworkbench_item.md') because we couldn't find any of the valid paths in any resource pack!
+[01:50:06] [Client thread/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftcore:block/engine_creative' (full path = 'buildcraftcore:compat/buildcraft/guide/en_us/block/engine_creative.md') because we couldn't find any of the valid paths in any resource pack!
+[01:50:07] [Client thread/INFO] [BuildCraft]: [lib.guide] Squished buildcraftsilicon:plug_facade and all of it's 881 variants down into one page entry.
+[01:50:07] [Client thread/INFO] [BuildCraft]: [lib.search] Max suffix length is 27
+[01:50:07] [Client thread/INFO] [BuildCraft]: [lib.search]   'tile.decorated.destroy.name'
+[01:50:07] [Client thread/INFO] [BuildCraft]: [lib.search]   'tile.decorated.leather.name'
+[01:50:07] [Client thread/WARN] [BuildCraft]: [lib.gui.cfg] Failed to read the config file! C:\Games\Minecraft\repos\.minecraft\versions\industrial\config\buildcraft\gui.json
+[01:50:07] [Client thread/INFO] [ElecCore]: ElecCore has Post-initialized in 6 ms
+[01:50:07] [Client thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[01:50:07] [Client thread/INFO] [ic2.General]: ic2 version 2.8.220-ex112 loaded.
+[01:50:07] [Client thread/INFO] [ElecCore]: ElecCore has Available in 1 ms
+[01:50:07] [Client thread/INFO] [jei]: Starting JEI...
+[01:50:07] [Client thread/INFO] [jei]: Registering recipe categories...
+[01:50:07] [Client thread/INFO] [BuildCraft]: Loaded JEI mods: [factory, energy, silicon]
+[01:50:07] [Client thread/INFO] [jei]: Registering recipe categories took 30.08 ms
+[01:50:07] [Client thread/INFO] [jei]: Registering mod plugins...
+[01:50:08] [Client thread/INFO] [jei]: Registering mod plugins took 649.8 ms
+[01:50:08] [Client thread/INFO] [jei]: Building recipe registry...
+[01:50:08] [Client thread/INFO] [jei]: Building recipe registry took 182.7 ms
+[01:50:08] [Client thread/INFO] [jei]: Building ingredient list...
+[01:50:08] [Client thread/INFO] [jei]: Building ingredient list took 55.52 ms
+[01:50:08] [Client thread/INFO] [jei]: Building ingredient filter...
+[01:50:09] [Client thread/INFO] [jei]: Building ingredient filter took 268.0 ms
+[01:50:09] [Client thread/INFO] [jei]: Building bookmarks...
+[01:50:09] [Client thread/INFO] [jei]: Building bookmarks took 3.758 ms
+[01:50:09] [Client thread/INFO] [jei]: Building runtime...
+[01:50:09] [Client thread/INFO] [jei]: Building runtime took 85.15 ms
+[01:50:09] [Client thread/INFO] [jei]: Optimizing memory usage...
+[01:50:09] [Client thread/INFO] [jei]: Optimizing memory usage took 73.92 ms
+[01:50:09] [Client thread/INFO] [jei]: Starting JEI took 1.619 s
+[01:50:09] [Client thread/INFO] [NotEnoughItems]: Loading NEI.
+[01:50:09] [Client thread/INFO] [NotEnoughItems]: Finished NEI Initialization after 218 ms
+[01:50:10] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 27 mods
+[01:50:10] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[01:50:10] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[01:50:11] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[01:50:12] [Client thread/INFO] [Config]: [OptiFine] *** Reloading custom textures ***
+[01:50:19] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[01:50:19] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[01:50:19] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[01:50:19] [Server thread/INFO] [FML]: Applying holder lookups
+[01:50:19] [Server thread/INFO] [FML]: Holder lookups applied
+[01:50:19] [Server thread/INFO] [FML]: Loading dimension 0 (mirok) (net.minecraft.server.integrated.IntegratedServer@28adfee1)
+[01:50:20] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 537 advancements
+[01:50:20] [Server thread/INFO] [FML]: Loading dimension -1 (mirok) (net.minecraft.server.integrated.IntegratedServer@28adfee1)
+[01:50:20] [Server thread/INFO] [FML]: Loading dimension 1 (mirok) (net.minecraft.server.integrated.IntegratedServer@28adfee1)
+[01:50:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[01:50:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 2%
+[01:50:22] [Server thread/INFO] [FML]: Unloading dimension -1
+[01:50:22] [Server thread/INFO] [FML]: Unloading dimension 1
+[01:50:22] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 16, from 10
+[01:50:24] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[01:50:24] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[01:50:24] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 27 mods : minecraft@1.12.2,buildcraftlib@7.99.24.6,bspkrscore@7.6.0.1,buildcraftsilicon@7.99.24.6,buildcraftenergy@7.99.24.6,jei@4.15.0.296,buildcrafttransport@7.99.24.6,nei@2.4.3,eleccore@1.9.453,ic2@2.8.220-ex112,buildcraftbuilders@7.99.24.6,mcp@9.42,treecapitator@1.43.0,buildcraftfactory@7.99.24.6,autopickup@2.5.1,FML@8.0.99.99,eleccoreloader@1.9.453,buildcraftcompat@7.99.24.6,huds@#VERSION#,tlauncher_custom_cape_skin@1.4,voxelmap@1.9.21,forge@14.23.5.2854,codechickenlib@3.2.3.358,fastleafdecay@v14,buildcraftcore@7.99.24.6,buildcraftrobotics@7.99.24.6,ironchest@1.12.2-7.0.67.844
+[01:50:24] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[01:50:24] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[01:50:25] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[01:50:25] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: alexagapov2000[local:E:669ede21] logged in with entity id 27 at (-1451.1360067431983, 75.0, 540.104067068293)
+[01:50:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: alexagapov2000 joined the game
+[01:50:25] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[01:50:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
+[01:50:25] [Client thread/INFO] [org.tlauncher.skin.cape.renderer.TextureManager]: textures alexagapov2000 was added, skin: true,cape: false, max waiting: 6 ,during : 17974 
+[01:50:26] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 302 advancements
+[01:50:27] [Client thread/WARN] [net.minecraft.client.network.NetHandlerPlayClient]: Received passengers for unknown entity
+[01:50:47] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[01:50:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
+[01:53:50] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
 java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
 	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
 	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
@@ -487,7 +415,7 @@ java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHan
 	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-[01:39:14] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
+[01:53:50] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
 java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
 	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
 	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
@@ -500,7 +428,7 @@ java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHan
 	at codechicken.nei.handler.NEIClientEventHandler.lambda$foregroundRenderEvent$8(NEIClientEventHandler.java:286) ~[NEIClientEventHandler.class:?]
 	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_251]
 	at codechicken.nei.handler.NEIClientEventHandler.foregroundRenderEvent(NEIClientEventHandler.java:286) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_162_NEIClientEventHandler_foregroundRenderEvent_DrawForeground.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_160_NEIClientEventHandler_foregroundRenderEvent_DrawForeground.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at net.minecraft.client.gui.inventory.GuiContainer.func_73863_a(GuiContainer.java:119) [bmg.class:?]
@@ -521,24 +449,20 @@ java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHan
 	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-[01:39:24] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:39:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
-[01:39:29] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:39:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
-[01:39:46] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:39:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
-[01:41:37] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:41:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
-[01:41:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[01:41:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[01:41:38] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: alexagapov2000 lost connection: Disconnected
-[01:41:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: alexagapov2000 left the game
-[01:41:38] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[01:41:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[01:41:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
-[01:41:38] [Server thread/INFO] [FML]: Unloading dimension 0
-[01:41:38] [Server thread/INFO] [FML]: Applying holder lookups
-[01:41:38] [Server thread/INFO] [FML]: Holder lookups applied
-[01:41:44] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[01:41:44] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[01:41:44] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[01:53:55] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[01:53:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
+[01:54:20] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[01:54:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
+[01:54:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:54:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[01:54:21] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: alexagapov2000 lost connection: Disconnected
+[01:54:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: alexagapov2000 left the game
+[01:54:21] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[01:54:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[01:54:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'mirok'/overworld
+[01:54:21] [Server thread/INFO] [FML]: Unloading dimension 0
+[01:54:22] [Server thread/INFO] [FML]: Applying holder lookups
+[01:54:22] [Server thread/INFO] [FML]: Holder lookups applied
+[01:54:24] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[01:54:24] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[01:54:24] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
